@@ -60,3 +60,7 @@ threat model, not the chip's fused key.
 - No run has yet been made on a self-controlled confidential GPU VM (Azure NCC H100 v5 or GCP A3). That is the next step.
 - No shipping hardware reports its own location. Location evidence here is network-inferred (labelled L0.5) or attestation-bound distance bounding (labelled L2).
 - Regulatory dates in the deep dive reflect the EU Digital Omnibus (Regulation 2026/1744): Annex III high-risk obligations apply from 2 December 2027, Annex I from 2 August 2028. Verify before reuse.
+
+## Licence
+
+Licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE).

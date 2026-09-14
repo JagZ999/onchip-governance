@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
 """
 tee_attestation_connector.py  —  open-source TEE attestation → compliance evidence
 On-chip governance evidence  →  EU AI Act Annex IV / Art. 15 / SOC 2 / ISO 42001
