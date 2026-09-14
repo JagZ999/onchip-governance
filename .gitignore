@@ -1,0 +1,10 @@
+# OS / Python noise
+.DS_Store
+__pycache__/
+*.pyc
+
+# Personal working material kept out of the repo
+applications/
+*_Session_Brief.docx
+fellowship_shortlist_*.md
+unprompted_cfp_submission.md

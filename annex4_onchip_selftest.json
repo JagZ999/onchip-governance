@@ -1,0 +1,893 @@
+{
+  "meta": {
+    "generated_at": "2026-09-09T04:43:56.278633+00:00",
+    "connector_version": "0.4.0",
+    "system_name": "credit-risk-classifier v7 (selftest)",
+    "provider": "Acme Lending BV",
+    "environment": "synthetic: Azure SEV-SNP + GCP TDX/H100 + NRAS",
+    "expected_measurement": [
+      "b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7",
+      "a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3",
+      "e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5"
+    ],
+    "model_digest": "4193d830a3974f8899b1ef1013172896085880988ca0ee6dcfcd76d629e5b372",
+    "max_age_days": 1
+  },
+  "assurance_level": {
+    "level": 3,
+    "description": "L3 \u2014 evidence independently re-verified against vendor / verifier keys"
+  },
+  "coverage": {
+    "score": 92,
+    "passed": 11,
+    "applicable": 12
+  },
+  "sources": [
+    {
+      "source": "nras",
+      "path": "selftest_evidence/nras.json",
+      "format": "jwt",
+      "issuer": "https://nras.attestation.nvidia.com",
+      "issued_at": "2026-09-09T04:43:56+00:00",
+      "expires_at": "2026-09-09T05:43:56+00:00",
+      "signature_verified": true,
+      "verify_note": "signature verified locally (ES256, kid=selftest-key)",
+      "nonce": "4193d830a3974f8899b1ef1013172896085880988ca0ee6dcfcd76d629e5b372",
+      "overall_result": true,
+      "devices": [
+        {
+          "kind": "gpu",
+          "vendor": "NVIDIA",
+          "tee": "NVIDIA-CC",
+          "identity": "5340650110430080",
+          "model": "GH100 A01 GSP BROM",
+          "firmware": {
+            "driver": "550.90.07",
+            "vbios": "96.00.9F.00.01",
+            "oemid": "5703"
+          },
+          "measurements": {},
+          "debug_enabled": false,
+          "secure_boot": true,
+          "cc_mode": "ON",
+          "measurements_match_reference": true,
+          "tcb_status": null,
+          "tcb_up_to_date": null,
+          "advisories": [],
+          "migratable": null,
+          "smt_enabled": null,
+          "cert_chain_valid": true,
+          "nonce_matched": true,
+          "report_data": null,
+          "runtime_data": null,
+          "location": {},
+          "workload": {},
+          "extra": {
+            "arch_check": true,
+            "rim_chain_ok": true,
+            "warning": null,
+            "switch_pdis": null
+          }
+        }
+      ],
+      "raw_claims_sha256": "999d664adedc07ed22da25f9691e037d4b354bd73d5df6fa8a5bde3f1d86f415",
+      "warnings": [],
+      "extra_verification": {}
+    },
+    {
+      "source": "ita",
+      "path": "selftest_evidence/ita.jwt",
+      "format": "jwt",
+      "issuer": "Intel Trust Authority",
+      "issued_at": "2026-09-09T04:43:56+00:00",
+      "expires_at": "2026-09-09T04:48:56+00:00",
+      "signature_verified": true,
+      "verify_note": "signature verified locally (ES256, kid=selftest-key)",
+      "nonce": null,
+      "overall_result": true,
+      "devices": [
+        {
+          "kind": "cpu-tee",
+          "vendor": "Intel",
+          "tee": "TDX",
+          "identity": null,
+          "model": "Intel TDX trust domain",
+          "firmware": {
+            "tdx_module_svn": 5,
+            "mrseam": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+            "mrsignerseam": null,
+            "tcb_date": "2026-05-15T00:00:00Z"
+          },
+          "measurements": {
+            "mrtd": "a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3a3",
+            "rtmr0": "010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101",
+            "rtmr1": "020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202",
+            "rtmr2": "030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303",
+            "rtmr3": "040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404"
+          },
+          "debug_enabled": false,
+          "secure_boot": true,
+          "cc_mode": null,
+          "measurements_match_reference": null,
+          "tcb_status": "UpToDate",
+          "tcb_up_to_date": true,
+          "advisories": [],
+          "migratable": false,
+          "smt_enabled": null,
+          "cert_chain_valid": true,
+          "nonce_matched": null,
+          "report_data": "4193d830a3974f8899b1ef1013172896085880988ca0ee6dcfcd76d629e5b3720000000000000000000000000000000000000000000000000000000000000000",
+          "runtime_data": null,
+          "location": {},
+          "workload": {},
+          "extra": {
+            "cvm_compliance_status": "compliant",
+            "policy_ids_matched": [
+              {
+                "id": "9f2a\u2026",
+                "version": "v1"
+              }
+            ],
+            "policy_ids_unmatched": [],
+            "td_attributes": "0000000010000000"
+          }
+        }
+      ],
+      "raw_claims_sha256": "e930d36cf9fa70e935f20ff70fb7242a57dd35e4d83917fac407f4776a8ef8b9",
+      "warnings": [],
+      "extra_verification": {}
+    },
+    {
+      "source": "maa",
+      "path": "selftest_evidence/maa.jwt",
+      "format": "jwt",
+      "issuer": "https://sharedweu.weu.attest.azure.net",
+      "issued_at": "2026-09-09T04:43:56+00:00",
+      "expires_at": "2026-09-09T12:43:56+00:00",
+      "signature_verified": true,
+      "verify_note": "signature verified locally (ES256, kid=selftest-key)",
+      "nonce": "selftest-4193d830a3974f88",
+      "overall_result": true,
+      "devices": [
+        {
+          "kind": "cpu-tee",
+          "vendor": "AMD",
+          "tee": "SEV-SNP",
+          "identity": "5E6B\u2026",
+          "model": "AMD SEV-SNP confidential VM",
+          "firmware": {
+            "bootloader_svn": 4,
+            "tee_svn": 0,
+            "snpfw_svn": 22,
+            "microcode_svn": 213,
+            "guest_svn": 7,
+            "hcl_family": "01010101010101010101010101010101",
+            "hcl_image": "02020202020202020202020202020202"
+          },
+          "measurements": {
+            "launch_measurement": "b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7",
+            "host_data": "0000000000000000000000000000000000000000000000000000000000000000",
+            "id_key_digest": "1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d"
+          },
+          "debug_enabled": false,
+          "secure_boot": true,
+          "cc_mode": null,
+          "measurements_match_reference": true,
+          "tcb_status": null,
+          "tcb_up_to_date": null,
+          "advisories": [],
+          "migratable": false,
+          "smt_enabled": true,
+          "cert_chain_valid": true,
+          "nonce_matched": null,
+          "report_data": "4193d830a3974f8899b1ef1013172896085880988ca0ee6dcfcd76d629e5b3720000000000000000000000000000000000000000000000000000000000000000",
+          "runtime_data": "{\"vm-configuration\": {\"secure-boot\": true, \"tpm-enabled\": true, \"vmUniqueId\": \"5E6B\\u2026\"}}",
+          "location": {},
+          "workload": {},
+          "extra": {
+            "compliance_status": "azure-compliant-cvm",
+            "vmpl": 0,
+            "policy_hash": "Ad\u2026",
+            "tpm_enabled": true
+          }
+        }
+      ],
+      "raw_claims_sha256": "97e29737c19485a8004f0c476bcce3b4eb561cc3fb1eb25d57f6b4a90150e44a",
+      "warnings": [],
+      "extra_verification": {}
+    },
+    {
+      "source": "gcs",
+      "path": "selftest_evidence/gcs.jwt",
+      "format": "jwt",
+      "issuer": "https://confidentialcomputing.googleapis.com",
+      "issued_at": "2026-09-09T04:43:56+00:00",
+      "expires_at": "2026-09-09T05:43:56+00:00",
+      "signature_verified": true,
+      "verify_note": "signature verified locally (ES256, kid=selftest-key)",
+      "nonce": [
+        "4193d830a3974f8899b1ef1013172896085880988ca0ee6dcfcd76d629e5b372"
+      ],
+      "overall_result": true,
+      "devices": [
+        {
+          "kind": "cpu-tee",
+          "vendor": "Google Cloud / Intel",
+          "tee": "Confidential Space",
+          "identity": "8123\u2026",
+          "model": "GCP_INTEL_TDX",
+          "firmware": {
+            "swname": "CONFIDENTIAL_SPACE",
+            "swversion": [
+              "260701"
+            ],
+            "support_attributes": [
+              "LATEST",
+              "STABLE",
+              "USABLE"
+            ]
+          },
+          "measurements": {
+            "container_image_digest": "e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5",
+            "container_image_reference": "europe-west4-docker.pkg.dev/acme/credit-risk@sha256:e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5"
+          },
+          "debug_enabled": false,
+          "secure_boot": true,
+          "cc_mode": null,
+          "measurements_match_reference": null,
+          "tcb_status": "LATEST,STABLE,USABLE",
+          "tcb_up_to_date": true,
+          "advisories": [],
+          "migratable": null,
+          "smt_enabled": null,
+          "cert_chain_valid": true,
+          "nonce_matched": null,
+          "report_data": null,
+          "runtime_data": null,
+          "location": {
+            "cloud_zone": "europe-west4-a",
+            "jurisdiction_hint": "EU/EEA",
+            "project_id": "acme-lending-prod",
+            "instance_name": "credit-risk-inf-01",
+            "attested": true
+          },
+          "workload": {
+            "image_reference": "europe-west4-docker.pkg.dev/acme/credit-risk@sha256:e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5",
+            "restart_policy": "Never",
+            "args": [
+              "python",
+              "serve.py"
+            ],
+            "service_accounts": [
+              "credit-risk-inference@example.iam.gserviceaccount.com"
+            ]
+          },
+          "extra": {
+            "aud": "https://sts.googleapis.com",
+            "oemid": 11129
+          }
+        },
+        {
+          "kind": "gpu",
+          "vendor": "NVIDIA",
+          "tee": "NVIDIA-CC",
+          "identity": "5340650110430081",
+          "model": "GCP_NVIDIA_H100",
+          "firmware": {
+            "driver": "570.86.15",
+            "vbios": "96.00.A5.00.01"
+          },
+          "measurements": {},
+          "debug_enabled": false,
+          "secure_boot": null,
+          "cc_mode": "ON",
+          "measurements_match_reference": null,
+          "tcb_status": null,
+          "tcb_up_to_date": null,
+          "advisories": [],
+          "migratable": null,
+          "smt_enabled": null,
+          "cert_chain_valid": null,
+          "nonce_matched": null,
+          "report_data": null,
+          "runtime_data": null,
+          "location": {},
+          "workload": {},
+          "extra": {
+            "cc_feature": "SPT",
+            "platform_verified": true
+          }
+        }
+      ],
+      "raw_claims_sha256": "ea9ac725b2948394ae30ae9ef2c40fe566b33cecc98fe85cb0a382233eed5f84",
+      "warnings": [],
+      "extra_verification": {}
+    },
+    {
+      "source": "snp-report",
+      "path": "selftest_evidence/snp_report.bin",
+      "format": "binary",
+      "issuer": "AMD Secure Processor (unverified)",
+      "issued_at": null,
+      "expires_at": null,
+      "signature_verified": null,
+      "verify_note": "",
+      "nonce": null,
+      "overall_result": true,
+      "devices": [
+        {
+          "kind": "cpu-tee",
+          "vendor": "AMD",
+          "tee": "SEV-SNP",
+          "identity": "8f6b59b8c1b3454edd7054a93f44c75bb3af52848da4ff7a78c9fa5a1c28cdee221cd51585fa138960f0f7843adb4a29dcc0fd52a065dec25bbb8070ce99ddf6",
+          "model": "AMD EPYC Genoa (SEV-SNP guest)",
+          "firmware": {
+            "report_version": 3,
+            "guest_svn": 7,
+            "current_tcb": {
+              "boot_loader": 4,
+              "tee": 0,
+              "snp": 22,
+              "microcode": 213
+            },
+            "reported_tcb": {
+              "boot_loader": 4,
+              "tee": 0,
+              "snp": 22,
+              "microcode": 213
+            },
+            "committed_tcb": {
+              "boot_loader": 4,
+              "tee": 0,
+              "snp": 22,
+              "microcode": 213
+            },
+            "launch_tcb": {
+              "boot_loader": 4,
+              "tee": 0,
+              "snp": 22,
+              "microcode": 213
+            },
+            "fw_current": "1.1.22",
+            "fw_committed": "1.1.22",
+            "signing_key": "VCEK",
+            "signature_algo": 1
+          },
+          "measurements": {
+            "launch_measurement": "b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7",
+            "host_data": "0000000000000000000000000000000000000000000000000000000000000000",
+            "id_key_digest": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "author_key_digest": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "family_id": "01010101010101010101010101010101",
+            "image_id": "02020202020202020202020202020202",
+            "report_id": "0000000000000000000000000000000000000000000000000000000000000000"
+          },
+          "debug_enabled": false,
+          "secure_boot": null,
+          "cc_mode": null,
+          "measurements_match_reference": null,
+          "tcb_status": "reported TCB \u2265 committed TCB",
+          "tcb_up_to_date": true,
+          "advisories": [],
+          "migratable": false,
+          "smt_enabled": true,
+          "cert_chain_valid": null,
+          "nonce_matched": null,
+          "report_data": "4193d830a3974f8899b1ef1013172896085880988ca0ee6dcfcd76d629e5b3720000000000000000000000000000000000000000000000000000000000000000",
+          "runtime_data": null,
+          "location": {},
+          "workload": {},
+          "extra": {
+            "policy": {
+              "abi_minor": 0,
+              "abi_major": 0,
+              "smt_allowed": true,
+              "migrate_ma": false,
+              "debug_allowed": false,
+              "single_socket": false,
+              "cxl_allowed": false,
+              "mem_aes_256_xts": false,
+              "rapl_disabled": false,
+              "ciphertext_hiding": false
+            },
+            "vmpl": 0,
+            "platform_info": {
+              "smt_en": true,
+              "tsme_en": false
+            },
+            "report_id_ma": "0000000000000000000000000000000000000000000000000000000000000000",
+            "author_key_en": false
+          }
+        }
+      ],
+      "raw_claims_sha256": "346279d8df7ebca7ded0c3f7323fb48841d09a35189ff31e803b483bc31e6e85",
+      "warnings": [
+        "raw SEV-SNP report: signature not verified (pass --verify-amd to fetch the VCEK chain from AMD KDS)"
+      ],
+      "extra_verification": {}
+    }
+  ],
+  "checks": [
+    {
+      "id": "G01",
+      "title": "Hardware identity chain: attestation signed by a key rooted in the silicon vendor",
+      "status": "unknown",
+      "evidence": [
+        "nras: signature verified locally (ES256, kid=selftest-key)",
+        "ita: signature verified locally (ES256, kid=selftest-key)",
+        "maa: signature verified locally (ES256, kid=selftest-key)",
+        "gcs: signature verified locally (ES256, kid=selftest-key)",
+        "GH100 A01 GSP BROM 5340650110430080: device cert chain valid",
+        "snp-report: raw report, signature not verified (pass --verify-amd)"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Art. 15(5) cybersecurity",
+          "Annex IV \u00a71(e) hardware description",
+          "Annex IV \u00a72(h) cybersecurity measures"
+        ],
+        "SOC 2": [
+          "CC6.1",
+          "CC6.6"
+        ],
+        "ISO/IEC 42001": [
+          "A.4.5 system & computing resources"
+        ],
+        "ISO/IEC 27001": [
+          "A.8.9",
+          "A.5.23"
+        ],
+        "NIST AI RMF": [
+          "MEASURE 2.7"
+        ]
+      },
+      "remediation": "Supply verifier JWKS (--jwks) so signatures are re-verified locally, or verify raw reports with vendor collateral."
+    },
+    {
+      "id": "G02",
+      "title": "Confidential-computing mode active on every attested device",
+      "status": "pass",
+      "evidence": [
+        "GH100 A01 GSP BROM 5340650110430080: cc_mode=ON",
+        "TDX: attestation implies TEE isolation active",
+        "SEV-SNP: attestation implies TEE isolation active",
+        "Confidential Space: attestation implies TEE isolation active",
+        "GCP_NVIDIA_H100 5340650110430081: cc_mode=ON",
+        "SEV-SNP: attestation implies TEE isolation active"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Art. 15(5) confidentiality attacks",
+          "Art. 10(5) data protection",
+          "Art. 55(1)(d) GPAI infra security"
+        ],
+        "SOC 2": [
+          "CC6.1",
+          "CC6.7",
+          "C1.1"
+        ],
+        "ISO/IEC 42001": [
+          "A.4.5"
+        ],
+        "ISO/IEC 27001": [
+          "A.8.24 cryptography"
+        ]
+      },
+      "remediation": "Enable CC mode (nvidia-smi conf-compute -srs 1 / cloud CC-enabled SKU) and re-attest."
+    },
+    {
+      "id": "G03",
+      "title": "Debug / developer modes disabled on every attested device",
+      "status": "pass",
+      "evidence": [
+        "NVIDIA-CC 5340650110430080: debug=disabled",
+        "TDX : debug=disabled",
+        "SEV-SNP 5E6B\u2026: debug=disabled",
+        "Confidential Space 8123\u2026: debug=disabled",
+        "NVIDIA-CC 5340650110430081: debug=disabled",
+        "SEV-SNP 8f6b59b8c1b3454edd7054a93f44c75bb3af52848da4ff7a78c9fa5a1c28cdee221cd51585fa138960f0f7843adb4a29dcc0fd52a065dec25bbb8070ce99ddf6: debug=disabled"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Art. 15(5) confidentiality attacks",
+          "Annex IV \u00a72(h)"
+        ],
+        "SOC 2": [
+          "CC6.1",
+          "CC6.8"
+        ],
+        "ISO/IEC 27001": [
+          "A.8.9 configuration management"
+        ]
+      },
+      "remediation": "Re-launch with debug policy bits cleared (SNP policy bit 19, TDX TUD.DEBUG, GPU dbgstat)."
+    },
+    {
+      "id": "G04",
+      "title": "Secure or measured boot enforced (firmware measured into the TEE)",
+      "status": "pass",
+      "evidence": [
+        "NVIDIA-CC 5340650110430080: secure/measured boot=True",
+        "TDX : secure/measured boot=True",
+        "SEV-SNP 5E6B\u2026: secure/measured boot=True",
+        "Confidential Space 8123\u2026: secure/measured boot=True",
+        "NVIDIA-CC 5340650110430081: secure/measured boot=not reported",
+        "SEV-SNP 8f6b59b8c1b3454edd7054a93f44c75bb3af52848da4ff7a78c9fa5a1c28cdee221cd51585fa138960f0f7843adb4a29dcc0fd52a065dec25bbb8070ce99ddf6: secure/measured boot=not reported"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Annex IV \u00a71(c) firmware versions",
+          "Art. 15(4) resilience"
+        ],
+        "SOC 2": [
+          "CC6.8",
+          "CC7.1"
+        ],
+        "NIST": [
+          "SP 800-193 firmware resiliency"
+        ]
+      },
+      "remediation": "Enable UEFI secure boot / measured boot in the CVM image; for raw SNP reports add the MAA or ITA token."
+    },
+    {
+      "id": "G05",
+      "title": "Firmware & driver measurements match the vendor reference (RIM / golden values)",
+      "status": "pass",
+      "evidence": [
+        "GH100 A01 GSP BROM 5340650110430080: measurements match reference=True; driver=550.90.07 vbios=96.00.9F.00.01",
+        "AMD SEV-SNP confidential VM 5E6B\u2026: measurements match reference=True; driver=None vbios=None",
+        "GCP_NVIDIA_H100 5340650110430081: measurements match reference=platform-verified (no RIM detail in token); driver=570.86.15 vbios=96.00.A5.00.01"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Annex IV \u00a71(c)",
+          "Annex IV \u00a76 lifecycle changes",
+          "Art. 15(5) model poisoning"
+        ],
+        "SOC 2": [
+          "CC6.8",
+          "CC7.1",
+          "CC8.1"
+        ],
+        "ISO/IEC 27001": [
+          "A.8.9",
+          "A.8.19"
+        ]
+      },
+      "remediation": "Update to a driver/vBIOS with a published RIM, or record the CSP compliance status claim."
+    },
+    {
+      "id": "G06",
+      "title": "Platform TCB up to date (no outstanding vendor security advisories)",
+      "status": "pass",
+      "evidence": [
+        "TDX : tcb_status=UpToDate; svn={'tdx_module_svn': 5}",
+        "SEV-SNP 5E6B\u2026: tcb_status=not reported; svn={'bootloader_svn': 4, 'tee_svn': 0, 'snpfw_svn': 22, 'microcode_svn': 213, 'guest_svn': 7}",
+        "Confidential Space 8123\u2026: tcb_status=LATEST,STABLE,USABLE",
+        "SEV-SNP 8f6b59b8c1b3454edd7054a93f44c75bb3af52848da4ff7a78c9fa5a1c28cdee221cd51585fa138960f0f7843adb4a29dcc0fd52a065dec25bbb8070ce99ddf6: tcb_status=reported TCB \u2265 committed TCB; svn={'guest_svn': 7}"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Art. 15(5) vulnerabilities",
+          "Annex IV \u00a76"
+        ],
+        "SOC 2": [
+          "CC7.1 vulnerability mgmt"
+        ],
+        "ISO/IEC 27001": [
+          "A.8.8"
+        ]
+      },
+      "remediation": "Apply platform firmware / microcode updates referenced by the advisories; re-attest."
+    },
+    {
+      "id": "G07",
+      "title": "Isolation policy: live migration off, side-channel-relevant options recorded",
+      "status": "pass",
+      "evidence": [
+        "TDX : migratable=False; smt=None",
+        "SEV-SNP 5E6B\u2026: migratable=False; smt=True",
+        "Confidential Space 8123\u2026: migratable=not reported; smt=None",
+        "SEV-SNP 8f6b59b8c1b3454edd7054a93f44c75bb3af52848da4ff7a78c9fa5a1c28cdee221cd51585fa138960f0f7843adb4a29dcc0fd52a065dec25bbb8070ce99ddf6: migratable=False; smt=True"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Art. 15(5) confidentiality attacks"
+        ],
+        "SOC 2": [
+          "CC6.1",
+          "CC6.7"
+        ]
+      },
+      "remediation": "Launch with migration disabled; document SMT decision in the Art. 15 risk assessment."
+    },
+    {
+      "id": "G08",
+      "title": "Attested workload measurement equals the documented reference (launch measurement / MRTD / image digest)",
+      "status": "pass",
+      "evidence": [
+        "TDX: mrtd=a3a3a3a3a3a3a3a3\u2026 in expected set",
+        "SEV-SNP: launch_measurement=b7b7b7b7b7b7b7b7\u2026 in expected set",
+        "Confidential Space: container_image_digest=e5e5e5e5e5e5e5e5\u2026 in expected set",
+        "SEV-SNP: launch_measurement=b7b7b7b7b7b7b7b7\u2026 in expected set"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Annex IV \u00a71(a) versions",
+          "Annex IV \u00a72(c) system architecture",
+          "Art. 12 record-keeping"
+        ],
+        "SOC 2": [
+          "CC8.1 change management",
+          "CC7.1"
+        ],
+        "ISO/IEC 42001": [
+          "A.6.2.4 verification & validation",
+          "A.6.2.7 technical documentation"
+        ]
+      },
+      "remediation": "Record the golden launch measurement / image digest in the model registry and pass it as --expected-measurement."
+    },
+    {
+      "id": "G09",
+      "title": "Deployed model artefact cryptographically bound to the attestation (model digest in report data)",
+      "status": "pass",
+      "evidence": [
+        "NVIDIA-CC: model digest FOUND in report_data/runtime_data/nonce",
+        "TDX: model digest FOUND in report_data/runtime_data/nonce",
+        "SEV-SNP: model digest FOUND in report_data/runtime_data/nonce",
+        "Confidential Space: model digest FOUND in report_data/runtime_data/nonce",
+        "NVIDIA-CC: model digest FOUND in report_data/runtime_data/nonce",
+        "SEV-SNP: model digest FOUND in report_data/runtime_data/nonce"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Annex IV \u00a71(a) model version",
+          "Annex IV \u00a76",
+          "Art. 12 traceability"
+        ],
+        "SOC 2": [
+          "CC8.1",
+          "CC6.8"
+        ],
+        "ISO/IEC 42001": [
+          "A.6.2.7",
+          "A.8.4 communication of incidents"
+        ]
+      },
+      "remediation": "Place SHA-256(model artefact) in REPORT_DATA / attester runtime data at launch so the running model is provable."
+    },
+    {
+      "id": "G10",
+      "title": "Freshness: nonce matched and evidence within the retention / re-attestation window",
+      "status": "pass",
+      "evidence": [
+        "nras: token exp 2026-09-09T05:43:56+00:00 (valid)",
+        "nras: issued 2026-09-09T04:43:56+00:00, age 0d (window 1d)",
+        "nras: nonce present",
+        "GH100 A01 GSP BROM: nonce match=True",
+        "ita: token exp 2026-09-09T04:48:56+00:00 (valid)",
+        "ita: issued 2026-09-09T04:43:56+00:00, age 0d (window 1d)",
+        "maa: token exp 2026-09-09T12:43:56+00:00 (valid)",
+        "maa: issued 2026-09-09T04:43:56+00:00, age 0d (window 1d)",
+        "maa: nonce present",
+        "gcs: token exp 2026-09-09T05:43:56+00:00 (valid)",
+        "gcs: issued 2026-09-09T04:43:56+00:00, age 0d (window 1d)",
+        "gcs: nonce present"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Art. 12 & Art. 19 automatic logs (\u2265 6 months)",
+          "Art. 72 post-market monitoring"
+        ],
+        "SOC 2": [
+          "CC7.2 monitoring"
+        ],
+        "ISO/IEC 42001": [
+          "A.6.2.6 operation & monitoring"
+        ]
+      },
+      "remediation": "Re-attest on a schedule (e.g. every deploy + daily) and retain tokens \u2265 6 months for Art. 19."
+    },
+    {
+      "id": "G11",
+      "title": "Deployment location / jurisdiction attested by the platform",
+      "status": "pass",
+      "evidence": [
+        "Confidential Space: zone=europe-west4-a \u2192 EU/EEA"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Annex IV \u00a71(e) deployment environment",
+          "Art. 10(5)"
+        ],
+        "SOC 2": [
+          "CC6.6"
+        ],
+        "Export controls": [
+          "Chip Security Act (pending): location verification",
+          "BIS licence conditions"
+        ],
+        "GDPR": [
+          "Ch. V transfers"
+        ]
+      },
+      "remediation": "Record deployment region from the CSP control plane as supporting evidence; track NVIDIA fleet-management / Chip Security Act location attestations."
+    },
+    {
+      "id": "G12",
+      "title": "Multi-device protection: NVLink / NVSwitch attested or single-GPU passthrough confirmed",
+      "status": "pass",
+      "evidence": [
+        "2 GPU(s), 0 NVSwitch attestation(s); single-passthrough=True; switch PDIs=no"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Art. 15(5)"
+        ],
+        "SOC 2": [
+          "CC6.7 data in motion"
+        ]
+      },
+      "remediation": "For multi-GPU CC, include NVSwitch attestation (nvattest --switch) or PPCIE verifier output."
+    }
+  ],
+  "annex_iv": {
+    "\u00a71 General description": {
+      "1(c) firmware/software versions": [
+        {
+          "device": "GH100 A01 GSP BROM",
+          "driver": "550.90.07",
+          "vbios": "96.00.9F.00.01",
+          "oemid": "5703"
+        },
+        {
+          "device": "Intel TDX trust domain",
+          "tdx_module_svn": 5,
+          "mrseam": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+          "tcb_date": "2026-05-15T00:00:00Z"
+        },
+        {
+          "device": "AMD SEV-SNP confidential VM",
+          "bootloader_svn": 4,
+          "tee_svn": 0,
+          "snpfw_svn": 22,
+          "microcode_svn": 213,
+          "guest_svn": 7,
+          "hcl_family": "01010101010101010101010101010101",
+          "hcl_image": "02020202020202020202020202020202"
+        },
+        {
+          "device": "GCP_INTEL_TDX",
+          "swname": "CONFIDENTIAL_SPACE",
+          "swversion": [
+            "260701"
+          ],
+          "support_attributes": [
+            "LATEST",
+            "STABLE",
+            "USABLE"
+          ]
+        },
+        {
+          "device": "GCP_NVIDIA_H100",
+          "driver": "570.86.15",
+          "vbios": "96.00.A5.00.01"
+        },
+        {
+          "device": "AMD EPYC Genoa (SEV-SNP guest)",
+          "report_version": 3,
+          "guest_svn": 7,
+          "current_tcb": {
+            "boot_loader": 4,
+            "tee": 0,
+            "snp": 22,
+            "microcode": 213
+          },
+          "reported_tcb": {
+            "boot_loader": 4,
+            "tee": 0,
+            "snp": 22,
+            "microcode": 213
+          },
+          "committed_tcb": {
+            "boot_loader": 4,
+            "tee": 0,
+            "snp": 22,
+            "microcode": 213
+          },
+          "launch_tcb": {
+            "boot_loader": 4,
+            "tee": 0,
+            "snp": 22,
+            "microcode": 213
+          },
+          "fw_current": "1.1.22",
+          "fw_committed": "1.1.22",
+          "signing_key": "VCEK",
+          "signature_algo": 1
+        }
+      ],
+      "1(e) hardware the system runs on": [
+        [
+          "AMD",
+          "AMD EPYC Genoa (SEV-SNP guest)"
+        ],
+        [
+          "AMD",
+          "AMD SEV-SNP confidential VM"
+        ],
+        [
+          "Google Cloud / Intel",
+          "GCP_INTEL_TDX"
+        ],
+        [
+          "Intel",
+          "Intel TDX trust domain"
+        ],
+        [
+          "NVIDIA",
+          "GCP_NVIDIA_H100"
+        ],
+        [
+          "NVIDIA",
+          "GH100 A01 GSP BROM"
+        ]
+      ],
+      "status": "auto"
+    },
+    "\u00a72 Design & development": {
+      "2(h) cybersecurity measures (hardware layer)": [
+        "pass",
+        "pass",
+        "pass",
+        "pass"
+      ],
+      "status": "auto-partial"
+    },
+    "\u00a73 Monitoring, functioning & control": {
+      "attested runtime state": [
+        "pass",
+        "pass",
+        "pass"
+      ],
+      "status": "auto-partial"
+    },
+    "\u00a74 Performance metrics": {
+      "status": "n/a (see MLflow / W&B connectors)"
+    },
+    "\u00a75 Risk management": {
+      "inputs": "side-channel residual risk, vendor-root trust, TCB drift",
+      "status": "manual"
+    },
+    "\u00a76 Lifecycle changes": {
+      "firmware/driver drift detection": "pass",
+      "status": "auto-partial"
+    },
+    "\u00a77 Standards applied": {
+      "candidates": [
+        "IETF RFC 9334 RATS",
+        "IETF RFC 9711 EAT",
+        "TCG DICE / SPDM",
+        "NIST SP 800-193",
+        "ISO/IEC 27001 A.8.24"
+      ],
+      "status": "manual"
+    },
+    "\u00a78 EU Declaration": {
+      "status": "manual"
+    },
+    "\u00a79 Post-market monitoring": {
+      "re-attestation cadence evidence": "pass",
+      "status": "auto-partial"
+    }
+  },
+  "standards_referenced": [
+    "IETF RFC 9334 (RATS architecture)",
+    "IETF RFC 9711 (EAT)",
+    "draft-ietf-rats-corim",
+    "AMD SEV-SNP ABI ATTESTATION_REPORT",
+    "Intel TDX DCAP quote v4/v5",
+    "NVIDIA Attestation claims v2/v3"
+  ]
+}

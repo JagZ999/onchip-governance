@@ -1,0 +1,509 @@
+{
+  "meta": {
+    "generated_at": "2026-09-09T04:43:42.388653+00:00",
+    "connector_version": "0.4.0",
+    "system_name": "Tinfoil confidential inference (inference.tinfoil.sh)",
+    "provider": "Tinfoil \u2014 third-party service, verified from outside",
+    "environment": "AMD SEV-SNP CVM (Genoa), production, fetched 2026-09-08",
+    "expected_measurement": null,
+    "model_digest": null,
+    "max_age_days": 1
+  },
+  "assurance_level": {
+    "level": 3,
+    "description": "L3 \u2014 evidence independently re-verified against vendor / verifier keys"
+  },
+  "coverage": {
+    "score": 50,
+    "passed": 5,
+    "applicable": 10
+  },
+  "sources": [
+    {
+      "source": "snp-report",
+      "path": "evidence/tinfoil_2026-09-08/inference.tinfoil.sh.snp_report.bin",
+      "format": "binary",
+      "issuer": "AMD Secure Processor (Genoa) \u2014 VCEK chain verified to AMD root",
+      "issued_at": null,
+      "expires_at": null,
+      "signature_verified": true,
+      "verify_note": "report signature and VCEK\u2192ASK\u2192ARK chain verified locally (ARK not pinned; compare fingerprint with AMD's published root)",
+      "nonce": null,
+      "overall_result": true,
+      "devices": [
+        {
+          "kind": "cpu-tee",
+          "vendor": "AMD",
+          "tee": "SEV-SNP",
+          "identity": "1af1aa6c1f56037a05849a59b8815cf909583f9ba9ef2f053218c437f33ba183e4e415b039b37f8205250ad15f8b88a0a3add9f4c081c0779a48ed2214378e44",
+          "model": "AMD EPYC Genoa (SEV-SNP guest)",
+          "firmware": {
+            "report_version": 3,
+            "guest_svn": 0,
+            "current_tcb": {
+              "boot_loader": 10,
+              "tee": 0,
+              "snp": 23,
+              "microcode": 84
+            },
+            "reported_tcb": {
+              "boot_loader": 10,
+              "tee": 0,
+              "snp": 23,
+              "microcode": 84
+            },
+            "committed_tcb": {
+              "boot_loader": 10,
+              "tee": 0,
+              "snp": 23,
+              "microcode": 84
+            },
+            "launch_tcb": {
+              "boot_loader": 10,
+              "tee": 0,
+              "snp": 23,
+              "microcode": 84
+            },
+            "fw_current": "1.55.40",
+            "fw_committed": "1.55.40",
+            "signing_key": "VCEK",
+            "signature_algo": 1
+          },
+          "measurements": {
+            "launch_measurement": "2c01d86a821fe34ac41832102fa8612179e9228ada5277f80c579592eb1c8c21c182df2bf5c275df82fc35962085ed2d",
+            "host_data": "0000000000000000000000000000000000000000000000000000000000000000",
+            "id_key_digest": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "author_key_digest": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "family_id": "00000000000000000000000000000000",
+            "image_id": "00000000000000000000000000000000",
+            "report_id": "a76db4a3d7e23ab182ce9b26c1073f891916a1e6b12b59bd14cb8ae93fe173a6"
+          },
+          "debug_enabled": false,
+          "secure_boot": null,
+          "cc_mode": null,
+          "measurements_match_reference": null,
+          "tcb_status": "reported TCB \u2265 committed TCB",
+          "tcb_up_to_date": true,
+          "advisories": [],
+          "migratable": false,
+          "smt_enabled": true,
+          "cert_chain_valid": true,
+          "nonce_matched": null,
+          "report_data": "b560c56fe1e79fd94e2c4e75f9d47285a091b6bdff83df8b06f4be131c413f98b341461cbb07d11ea4cf3dbdbb0a9baec205d59c3fd5c91be29fdceafb5f933d",
+          "runtime_data": null,
+          "location": {},
+          "workload": {},
+          "extra": {
+            "policy": {
+              "abi_minor": 0,
+              "abi_major": 0,
+              "smt_allowed": true,
+              "migrate_ma": false,
+              "debug_allowed": false,
+              "single_socket": false,
+              "cxl_allowed": false,
+              "mem_aes_256_xts": false,
+              "rapl_disabled": false,
+              "ciphertext_hiding": false
+            },
+            "vmpl": 0,
+            "platform_info": {
+              "smt_en": true,
+              "tsme_en": true
+            },
+            "report_id_ma": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+            "author_key_en": false
+          }
+        }
+      ],
+      "raw_claims_sha256": "77e3d5d9ac4da03919b6f293972fc4725e9219b46a4b0081b67026c56e9eb2ba",
+      "warnings": [],
+      "extra_verification": {
+        "verified": true,
+        "chain": {
+          "vcek_by_ask": true,
+          "ask_by_ark": true,
+          "ark_self_signed": true
+        },
+        "note": "report signature and VCEK\u2192ASK\u2192ARK chain verified locally (ARK not pinned; compare fingerprint with AMD's published root)",
+        "product": "Genoa",
+        "vcek_url": "https://kdsintf.amd.com/vcek/v1/Genoa/1af1aa6c1f56037a05849a59b8815cf909583f9ba9ef2f053218c437f33ba183e4e415b039b37f8205250ad15f8b88a0a3add9f4c081c0779a48ed2214378e44?blSPL=10&teeSPL=0&snpSPL=23&ucodeSPL=84",
+        "chain_url": "https://kdsintf.amd.com/vcek/v1/Genoa/cert_chain",
+        "report_signature_ok": true,
+        "ark_sha256": "4c6598d19c18719c5dfd4a7d335f674e5bfe1d8f800cea2cf270c10d103db2f1",
+        "ark_pinned": null
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "G01",
+      "title": "Hardware identity chain: attestation signed by a key rooted in the silicon vendor",
+      "status": "pass",
+      "evidence": [
+        "snp-report: report signature and VCEK\u2192ASK\u2192ARK chain verified locally (ARK not pinned; compare fingerprint with AMD's published root)"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Art. 15(5) cybersecurity",
+          "Annex IV \u00a71(e) hardware description",
+          "Annex IV \u00a72(h) cybersecurity measures"
+        ],
+        "SOC 2": [
+          "CC6.1",
+          "CC6.6"
+        ],
+        "ISO/IEC 42001": [
+          "A.4.5 system & computing resources"
+        ],
+        "ISO/IEC 27001": [
+          "A.8.9",
+          "A.5.23"
+        ],
+        "NIST AI RMF": [
+          "MEASURE 2.7"
+        ]
+      },
+      "remediation": "Supply verifier JWKS (--jwks) so signatures are re-verified locally, or verify raw reports with vendor collateral."
+    },
+    {
+      "id": "G02",
+      "title": "Confidential-computing mode active on every attested device",
+      "status": "pass",
+      "evidence": [
+        "SEV-SNP: attestation implies TEE isolation active"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Art. 15(5) confidentiality attacks",
+          "Art. 10(5) data protection",
+          "Art. 55(1)(d) GPAI infra security"
+        ],
+        "SOC 2": [
+          "CC6.1",
+          "CC6.7",
+          "C1.1"
+        ],
+        "ISO/IEC 42001": [
+          "A.4.5"
+        ],
+        "ISO/IEC 27001": [
+          "A.8.24 cryptography"
+        ]
+      },
+      "remediation": "Enable CC mode (nvidia-smi conf-compute -srs 1 / cloud CC-enabled SKU) and re-attest."
+    },
+    {
+      "id": "G03",
+      "title": "Debug / developer modes disabled on every attested device",
+      "status": "pass",
+      "evidence": [
+        "SEV-SNP 1af1aa6c1f56037a05849a59b8815cf909583f9ba9ef2f053218c437f33ba183e4e415b039b37f8205250ad15f8b88a0a3add9f4c081c0779a48ed2214378e44: debug=disabled"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Art. 15(5) confidentiality attacks",
+          "Annex IV \u00a72(h)"
+        ],
+        "SOC 2": [
+          "CC6.1",
+          "CC6.8"
+        ],
+        "ISO/IEC 27001": [
+          "A.8.9 configuration management"
+        ]
+      },
+      "remediation": "Re-launch with debug policy bits cleared (SNP policy bit 19, TDX TUD.DEBUG, GPU dbgstat)."
+    },
+    {
+      "id": "G04",
+      "title": "Secure or measured boot enforced (firmware measured into the TEE)",
+      "status": "unknown",
+      "evidence": [
+        "SEV-SNP 1af1aa6c1f56037a05849a59b8815cf909583f9ba9ef2f053218c437f33ba183e4e415b039b37f8205250ad15f8b88a0a3add9f4c081c0779a48ed2214378e44: secure/measured boot=not reported"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Annex IV \u00a71(c) firmware versions",
+          "Art. 15(4) resilience"
+        ],
+        "SOC 2": [
+          "CC6.8",
+          "CC7.1"
+        ],
+        "NIST": [
+          "SP 800-193 firmware resiliency"
+        ]
+      },
+      "remediation": "Enable UEFI secure boot / measured boot in the CVM image; for raw SNP reports add the MAA or ITA token."
+    },
+    {
+      "id": "G05",
+      "title": "Firmware & driver measurements match the vendor reference (RIM / golden values)",
+      "status": "n/a",
+      "evidence": [],
+      "controls": {
+        "EU AI Act": [
+          "Annex IV \u00a71(c)",
+          "Annex IV \u00a76 lifecycle changes",
+          "Art. 15(5) model poisoning"
+        ],
+        "SOC 2": [
+          "CC6.8",
+          "CC7.1",
+          "CC8.1"
+        ],
+        "ISO/IEC 27001": [
+          "A.8.9",
+          "A.8.19"
+        ]
+      },
+      "remediation": "Update to a driver/vBIOS with a published RIM, or record the CSP compliance status claim."
+    },
+    {
+      "id": "G06",
+      "title": "Platform TCB up to date (no outstanding vendor security advisories)",
+      "status": "pass",
+      "evidence": [
+        "SEV-SNP 1af1aa6c1f56037a05849a59b8815cf909583f9ba9ef2f053218c437f33ba183e4e415b039b37f8205250ad15f8b88a0a3add9f4c081c0779a48ed2214378e44: tcb_status=reported TCB \u2265 committed TCB; svn={'guest_svn': 0}"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Art. 15(5) vulnerabilities",
+          "Annex IV \u00a76"
+        ],
+        "SOC 2": [
+          "CC7.1 vulnerability mgmt"
+        ],
+        "ISO/IEC 27001": [
+          "A.8.8"
+        ]
+      },
+      "remediation": "Apply platform firmware / microcode updates referenced by the advisories; re-attest."
+    },
+    {
+      "id": "G07",
+      "title": "Isolation policy: live migration off, side-channel-relevant options recorded",
+      "status": "pass",
+      "evidence": [
+        "SEV-SNP 1af1aa6c1f56037a05849a59b8815cf909583f9ba9ef2f053218c437f33ba183e4e415b039b37f8205250ad15f8b88a0a3add9f4c081c0779a48ed2214378e44: migratable=False; smt=True"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Art. 15(5) confidentiality attacks"
+        ],
+        "SOC 2": [
+          "CC6.1",
+          "CC6.7"
+        ]
+      },
+      "remediation": "Launch with migration disabled; document SMT decision in the Art. 15 risk assessment."
+    },
+    {
+      "id": "G08",
+      "title": "Attested workload measurement equals the documented reference (launch measurement / MRTD / image digest)",
+      "status": "unknown",
+      "evidence": [
+        "SEV-SNP: launch_measurement=2c01d86a821fe34a\u2026 (no --expected-measurement supplied)"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Annex IV \u00a71(a) versions",
+          "Annex IV \u00a72(c) system architecture",
+          "Art. 12 record-keeping"
+        ],
+        "SOC 2": [
+          "CC8.1 change management",
+          "CC7.1"
+        ],
+        "ISO/IEC 42001": [
+          "A.6.2.4 verification & validation",
+          "A.6.2.7 technical documentation"
+        ]
+      },
+      "remediation": "Record the golden launch measurement / image digest in the model registry and pass it as --expected-measurement."
+    },
+    {
+      "id": "G09",
+      "title": "Deployed model artefact cryptographically bound to the attestation (model digest in report data)",
+      "status": "unknown",
+      "evidence": [
+        "SEV-SNP: report_data present (b560c56fe1e79fd9\u2026) \u2014 pass --model-digest to bind the model"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Annex IV \u00a71(a) model version",
+          "Annex IV \u00a76",
+          "Art. 12 traceability"
+        ],
+        "SOC 2": [
+          "CC8.1",
+          "CC6.8"
+        ],
+        "ISO/IEC 42001": [
+          "A.6.2.7",
+          "A.8.4 communication of incidents"
+        ]
+      },
+      "remediation": "Place SHA-256(model artefact) in REPORT_DATA / attester runtime data at launch so the running model is provable."
+    },
+    {
+      "id": "G10",
+      "title": "Freshness: nonce matched and evidence within the retention / re-attestation window",
+      "status": "unknown",
+      "evidence": [],
+      "controls": {
+        "EU AI Act": [
+          "Art. 12 & Art. 19 automatic logs (\u2265 6 months)",
+          "Art. 72 post-market monitoring"
+        ],
+        "SOC 2": [
+          "CC7.2 monitoring"
+        ],
+        "ISO/IEC 42001": [
+          "A.6.2.6 operation & monitoring"
+        ]
+      },
+      "remediation": "Re-attest on a schedule (e.g. every deploy + daily) and retain tokens \u2265 6 months for Art. 19."
+    },
+    {
+      "id": "G11",
+      "title": "Deployment location / jurisdiction attested by the platform",
+      "status": "unknown",
+      "evidence": [
+        "No platform-attested location in evidence (NRAS/ITA/MAA tokens carry none today; Chip Security Act mechanisms not yet shipping)"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Annex IV \u00a71(e) deployment environment",
+          "Art. 10(5)"
+        ],
+        "SOC 2": [
+          "CC6.6"
+        ],
+        "Export controls": [
+          "Chip Security Act (pending): location verification",
+          "BIS licence conditions"
+        ],
+        "GDPR": [
+          "Ch. V transfers"
+        ]
+      },
+      "remediation": "Record deployment region from the CSP control plane as supporting evidence; track NVIDIA fleet-management / Chip Security Act location attestations."
+    },
+    {
+      "id": "G12",
+      "title": "Multi-device protection: NVLink / NVSwitch attested or single-GPU passthrough confirmed",
+      "status": "n/a",
+      "evidence": [],
+      "controls": {
+        "EU AI Act": [
+          "Art. 15(5)"
+        ],
+        "SOC 2": [
+          "CC6.7 data in motion"
+        ]
+      },
+      "remediation": "For multi-GPU CC, include NVSwitch attestation (nvattest --switch) or PPCIE verifier output."
+    }
+  ],
+  "annex_iv": {
+    "\u00a71 General description": {
+      "1(c) firmware/software versions": [
+        {
+          "device": "AMD EPYC Genoa (SEV-SNP guest)",
+          "report_version": 3,
+          "guest_svn": 0,
+          "current_tcb": {
+            "boot_loader": 10,
+            "tee": 0,
+            "snp": 23,
+            "microcode": 84
+          },
+          "reported_tcb": {
+            "boot_loader": 10,
+            "tee": 0,
+            "snp": 23,
+            "microcode": 84
+          },
+          "committed_tcb": {
+            "boot_loader": 10,
+            "tee": 0,
+            "snp": 23,
+            "microcode": 84
+          },
+          "launch_tcb": {
+            "boot_loader": 10,
+            "tee": 0,
+            "snp": 23,
+            "microcode": 84
+          },
+          "fw_current": "1.55.40",
+          "fw_committed": "1.55.40",
+          "signing_key": "VCEK",
+          "signature_algo": 1
+        }
+      ],
+      "1(e) hardware the system runs on": [
+        [
+          "AMD",
+          "AMD EPYC Genoa (SEV-SNP guest)"
+        ]
+      ],
+      "status": "auto"
+    },
+    "\u00a72 Design & development": {
+      "2(h) cybersecurity measures (hardware layer)": [
+        "pass",
+        "pass",
+        "unknown",
+        "pass"
+      ],
+      "status": "auto-partial"
+    },
+    "\u00a73 Monitoring, functioning & control": {
+      "attested runtime state": [
+        "n/a",
+        "pass",
+        "unknown"
+      ],
+      "status": "auto-partial"
+    },
+    "\u00a74 Performance metrics": {
+      "status": "n/a (see MLflow / W&B connectors)"
+    },
+    "\u00a75 Risk management": {
+      "inputs": "side-channel residual risk, vendor-root trust, TCB drift",
+      "status": "manual"
+    },
+    "\u00a76 Lifecycle changes": {
+      "firmware/driver drift detection": "n/a",
+      "status": "auto-partial"
+    },
+    "\u00a77 Standards applied": {
+      "candidates": [
+        "IETF RFC 9334 RATS",
+        "IETF RFC 9711 EAT",
+        "TCG DICE / SPDM",
+        "NIST SP 800-193",
+        "ISO/IEC 27001 A.8.24"
+      ],
+      "status": "manual"
+    },
+    "\u00a78 EU Declaration": {
+      "status": "manual"
+    },
+    "\u00a79 Post-market monitoring": {
+      "re-attestation cadence evidence": "unknown",
+      "status": "auto-partial"
+    }
+  },
+  "standards_referenced": [
+    "IETF RFC 9334 (RATS architecture)",
+    "IETF RFC 9711 (EAT)",
+    "draft-ietf-rats-corim",
+    "AMD SEV-SNP ABI ATTESTATION_REPORT",
+    "Intel TDX DCAP quote v4/v5",
+    "NVIDIA Attestation claims v2/v3"
+  ]
+}
