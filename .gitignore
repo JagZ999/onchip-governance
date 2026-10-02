@@ -7,4 +7,5 @@ __pycache__/
 applications/
 *_Session_Brief.docx
 fellowship_shortlist_*.md
-unprompted_cfp_submission.md
+unprompted_*.md
+mirror_brief_*

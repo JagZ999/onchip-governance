@@ -1,0 +1,1666 @@
+{
+ "collected_at": "2026-10-02",
+ "source": "GitHub releases API, org tinfoilsh, 96-hex strings in release bodies",
+ "releases": [
+  {
+   "repo": "cvmimage",
+   "tag": "v0.15.0-rc3",
+   "published_at": "2026-10-01T19:06:05Z",
+   "measurements": [
+    "6daeec841a4544875bb5b5882b8ffa12cb812e2ace2e64d5bf9d7479a0e1ed9b14d2df3fbe8ba38608bae501c0d746bf",
+    "f93876576c1a0c39b69d36f65a1795fc558b270a78a2ac2c13b57050042d286f6c31876f270b3b5fba0e3267aeccf9bb"
+   ],
+   "url": "https://github.com/tinfoilsh/cvmimage/releases/tag/v0.15.0-rc3"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.155",
+   "published_at": "2026-09-25T00:07:42Z",
+   "measurements": [
+    "6fae21bf6875abedb74d6b171aee3b8209e4b1a9d4ba8fc1542d47d236c511b8454770cc6e3be631bc5d7e59007049aa",
+    "a787299fe2e84295a406dde367abac5b40128c1e13aa81dfde4a5c2e39682e45cde7bb84cefc7f33f25ac645fc265030",
+    "b3be62c7199d8e4d24f130e5651bdc8a62a2532f72c7e87c986bec54bf5f90bab703ad4dbfc5e45bfd385f8972dfc66c"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.155"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.154",
+   "published_at": "2026-09-23T22:32:55Z",
+   "measurements": [
+    "18293a9bdfdc43d34f9aeb28a429e961944bceaa0fe21f94a7fb113f637b5e8918c1144bbe14624680b5c7ade3c74176",
+    "61f779e72d55088ed88ce8874c697d25217a58e0e40e10c5f96827672c72869370d6235f8fa75f65f55e81976c80488e",
+    "a787299fe2e84295a406dde367abac5b40128c1e13aa81dfde4a5c2e39682e45cde7bb84cefc7f33f25ac645fc265030"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.154"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.153",
+   "published_at": "2026-09-23T01:34:48Z",
+   "measurements": [
+    "6b8b4530e6ea1d3d536697c1ce2b5b629cb90ac915bf4810f40d6cbc57335227fd3a79bd6d1db82e262eb51ddea38341",
+    "a787299fe2e84295a406dde367abac5b40128c1e13aa81dfde4a5c2e39682e45cde7bb84cefc7f33f25ac645fc265030",
+    "e595258ee87d7dadf33f318a56b39a09afe709c4c90d4d1c646055ebb81b06c8a6592f6d63b3b51adcab74eed24593bb"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.153"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.152",
+   "published_at": "2026-09-22T03:51:24Z",
+   "measurements": [
+    "5d5c37d9ba5974673c3068f984bd65027c7de9166e84f35ff36de41290c673be2ba91de53300c2810901fe79cbad40cb",
+    "7e63f2e5c2eb5efc779d2f53eeb030489e7bc414758c84f5f390a12df6e5836c16a41dfd6b54193f5f2b5bb55fd8bec3",
+    "a787299fe2e84295a406dde367abac5b40128c1e13aa81dfde4a5c2e39682e45cde7bb84cefc7f33f25ac645fc265030"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.152"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.151",
+   "published_at": "2026-09-21T17:45:23Z",
+   "measurements": [
+    "4d83392a701bd753f83255b24e061424cc53b4b2d5bf1dd947f6df538d1ff395e95d35345a59a73662aa7628639b251e",
+    "a787299fe2e84295a406dde367abac5b40128c1e13aa81dfde4a5c2e39682e45cde7bb84cefc7f33f25ac645fc265030",
+    "e2ebd9deb8e5a3cbdbaf4b9f59cf851c413e56940d5306fbd1394a76e2d9876a75a6a0c388a1cc81d32196e873555d5b"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.151"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.150",
+   "published_at": "2026-09-15T22:58:01Z",
+   "measurements": [
+    "27e0b90db95a9a31afa2b0af31405934171f4ebbc4345e46f4107da68adc426202abee077c9515a3c9b07aad93a7da90",
+    "542d5487efccff3e6cc0b815d2b03b84e83904c259dbd5580de81b63fbafa4d5e76053f80459eb1c8c21403de17b75cd",
+    "a787299fe2e84295a406dde367abac5b40128c1e13aa81dfde4a5c2e39682e45cde7bb84cefc7f33f25ac645fc265030"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.150"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.149",
+   "published_at": "2026-09-13T23:42:41Z",
+   "measurements": [
+    "44c671aff413ed697a28ee234429f2fb00977865c54f1469edfe8c698d017a6a547f728ce137f3b3c0c8142a367520a7",
+    "a787299fe2e84295a406dde367abac5b40128c1e13aa81dfde4a5c2e39682e45cde7bb84cefc7f33f25ac645fc265030",
+    "d0a58c55a09d9515f84bf9b26cb9e03864c00492f20aecef553f05bc8884fc532ea3236891dcfa1873ded2e41c2374f2"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.149"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.148",
+   "published_at": "2026-09-11T23:00:52Z",
+   "measurements": [
+    "3e8cfd5a262f6eb109ee17188ec3c2b9ed24c76e9973a3cf911c34142e2061d98c9493c4de8c66564f5023a8eee42054",
+    "a787299fe2e84295a406dde367abac5b40128c1e13aa81dfde4a5c2e39682e45cde7bb84cefc7f33f25ac645fc265030",
+    "f8e5d085dd045e6ce7857d5b8027c5a035c83745965802e4b7bc9bea6e89bfc349e485e4e6edb4dda4f87f123a58d36f"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.148"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.147",
+   "published_at": "2026-09-11T15:10:11Z",
+   "measurements": [
+    "5024a5d69a6c393f78ae49eec6a4b06fba8057e1ab637777f3499e2f333807fecde7f6e5277f1b3b5ffd829910f1b0ee",
+    "8d23b8017d490193fd066956f8eb97b73112d887866b5deaff3caee46e83ac38e70115963481698e7876ef4856ffca80",
+    "a787299fe2e84295a406dde367abac5b40128c1e13aa81dfde4a5c2e39682e45cde7bb84cefc7f33f25ac645fc265030"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.147"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.146",
+   "published_at": "2026-09-09T20:37:38Z",
+   "measurements": [
+    "72ef89bb2593dc8ea7c5d7f060b32056be93c4a7e676e6a5091aa9d0b48a88cfb6f0d7777d54a48e92498aabd80603eb",
+    "a787299fe2e84295a406dde367abac5b40128c1e13aa81dfde4a5c2e39682e45cde7bb84cefc7f33f25ac645fc265030",
+    "fbc15ed78c10ff46f760875c4563daade0793749172979f1da31624c40095212d5e20ea3bb38281148e7dd19a956d2d6"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.146"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.145",
+   "published_at": "2026-09-08T23:06:02Z",
+   "measurements": [
+    "2c01d86a821fe34ac41832102fa8612179e9228ada5277f80c579592eb1c8c21c182df2bf5c275df82fc35962085ed2d",
+    "79322e7095216071706ed4c184fffc781b65cb1439b54e87aa7bd0169f5bc0ff1eb352bc03a1d1427883b88dd7767479",
+    "a787299fe2e84295a406dde367abac5b40128c1e13aa81dfde4a5c2e39682e45cde7bb84cefc7f33f25ac645fc265030"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.145"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.144",
+   "published_at": "2026-09-03T03:27:13Z",
+   "measurements": [
+    "0c182a0e9a7dd8509db15d5185e0729b95678eff5633c0f5267fab7bbb945174c21e353baa199dcf959d425b8be61ef3",
+    "a787299fe2e84295a406dde367abac5b40128c1e13aa81dfde4a5c2e39682e45cde7bb84cefc7f33f25ac645fc265030",
+    "cc1cc66656c4c673c31df51c77c0c7527f6b8065aa82b485e61fcdec26a9003c7783176d2020bae8e5d00ae8ef7a469e"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.144"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.143",
+   "published_at": "2026-09-03T00:21:29Z",
+   "measurements": [
+    "a787299fe2e84295a406dde367abac5b40128c1e13aa81dfde4a5c2e39682e45cde7bb84cefc7f33f25ac645fc265030",
+    "b7d630ea910de86370bf64a86c455510d600bc60746417e5937849222df71354631e55fa077063386e9541fc4ed5a164",
+    "ed3c407be42113615db82480308fda74af1e9df8622b1ee5f0040c448e6076e0c86f861edf5c1dae22d798c2e0b2d176"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.143"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.142",
+   "published_at": "2026-08-19T03:33:03Z",
+   "measurements": [
+    "2f5234ca055bc38ff401fb19bf8c2765e53528a4e5684412cb571af976301ee181c54b9a9071750a3c4a1dbbed5c23e8",
+    "6dd91ce3a9b812c7b22f4fb0bd53c025c0b4fb6f4469a97f966ad50a0bc71496fb2723ddabe96a6c79da746a64af129a",
+    "a787299fe2e84295a406dde367abac5b40128c1e13aa81dfde4a5c2e39682e45cde7bb84cefc7f33f25ac645fc265030"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.142"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.141",
+   "published_at": "2026-08-13T22:57:37Z",
+   "measurements": [
+    "6d657b353726893ee7202d33efc7c849a62693049c646f9394a8c6e2a165ed9936c024c4200878927767317ba3cbca7a",
+    "a787299fe2e84295a406dde367abac5b40128c1e13aa81dfde4a5c2e39682e45cde7bb84cefc7f33f25ac645fc265030",
+    "e6a88b182c2ff45276c333482c88ce2b30329d8e62d83a5797016d7320a64bc9b70f4b02013e2670b5c145469a4655e7"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.141"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.140",
+   "published_at": "2026-08-11T21:52:38Z",
+   "measurements": [
+    "27a1724a45ee147e3b46f4e4de6d926e9a992ec0fb7bd3d894df82bc63bcdc44926617f73c4f14804a0c7334095fbc75",
+    "5cd252b81bb05d773879f65e34fc591e5d5f4b1c5f2de41861beb2ee291b57487cc336d635957d8a43b98c9b500c067c",
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.140"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.139",
+   "published_at": "2026-08-11T10:12:18Z",
+   "measurements": [
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac",
+    "d0553293de5e642737fb8cf529e300549275e8eb635b42d347a2a0d4c4f9a43e05002f1d04a85d38f8e35e100b4d35ec",
+    "ddf03993520669bd483f7fddf8924efe395a8d88aa7a26b98dc60f791e6961deb1948376ddf95a1cd392fc36538b6cdc"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.139"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.138",
+   "published_at": "2026-08-11T02:09:31Z",
+   "measurements": [
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac",
+    "70e927deed9deaf5a450a5156a1374d76f3b73b24b0538354b511606cdb1b69532119c0e2147fe1ff116a59fd7739b8b",
+    "dbc448c8e5112b77a056aa4f89d43f215481d4b3dd7cf30910c47865d102e6e960fd657df8de6428193519cc2bb25027"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.138"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.137",
+   "published_at": "2026-08-08T02:48:32Z",
+   "measurements": [
+    "505ba8487649793f842e873a73925e769ee65312f169d6c7465f25c9fb360b1f90f71ccb10da80d02fb3a784bc7d76e0",
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac",
+    "96899e95b9187856b159f810616d65b605dc950f7bf48c640533ff4e41c7c9e3c0b6ce8a69f5eed61f4055725d1a9b06"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.137"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.136",
+   "published_at": "2026-08-07T07:18:51Z",
+   "measurements": [
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac",
+    "a85221db3104f5ed29f05a61ffc142fbc7fa5b0e953603a627bfcfe3dfb3fb1786f24cc045e7e9c36c6b0072bf8665db",
+    "d9e6bd7298a45643e97db5a0b7bcd7fdf5691b36b2883db376cefbe0a2d7d92d09827d7fd23e18fa958688f2d254d32a"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.136"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.135",
+   "published_at": "2026-07-29T06:54:44Z",
+   "measurements": [
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac",
+    "99e92b1d07b423785decbdec3083a4bfb75a44ce8cecf449db764a7232581212b76eb43bf63d5f31579057f4ec97bc7e",
+    "c21e5c2a1be8c8da6cb0b7c717b0beea21493e446dc17876e4dc209e3da3bf19aa0bb5c494e6b52ad4ed70d277fcafae"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.135"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.134",
+   "published_at": "2026-07-29T05:05:38Z",
+   "measurements": [
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac",
+    "7b863238ce918b81f40a6eba2b6879065b0a595dc5fa6796a7b14c7d91c76504bdb088c6f5f82efc61af9d85bb742d98",
+    "a17657fcbe02c6396744b06e4ee665a5d4e85ead9acf487c6245953f98afc9b32ab412e88ff5c0fad0e9ac2f0b3cccd0"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.134"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.133",
+   "published_at": "2026-07-29T04:02:44Z",
+   "measurements": [
+    "040bf10735d890d42eded3310e0ede8eb0840414e11b83c23e10ecaf8db49df9aab5c2855191eb1e3a5a726c402209dd",
+    "3dcc59ab8bc5c8e8f0524df8bd52f8e709446fdcd8d2086e34b0fbb6e93359695fc6f59477641eea83e611adafc347ed",
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.133"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.132",
+   "published_at": "2026-07-29T03:21:28Z",
+   "measurements": [
+    "3baad214238a9e547a63858c41270fd5925ad33cdfc10761863f816a9523278ea0d38039e783ab119f966bfe08ba5faa",
+    "5c0f6dc70622c884ee267ea913483ddea1ef2bfc0f117050a483c35ccfd4300ea93e44506328ae91073ff4151e7e3ee2",
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.132"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.131",
+   "published_at": "2026-07-25T18:17:12Z",
+   "measurements": [
+    "1f6c02e5c9d395e42b3ceb72452b5fbd6f35a16028926de544f58797ebecf7feb4086702daba7cdb7b37a576f66a0244",
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac",
+    "f487f080a82d5af116328ba5907a4ed22cb7b500cfe927182e7a241a6c3ce2b8506f4d7e5b69d6df22072bada797db13"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.131"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.130",
+   "published_at": "2026-07-24T19:16:11Z",
+   "measurements": [
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac",
+    "720fb8d48fdf73fb3fafe8ee46287bd0949f6f8855ccfa0162538e55998dab0ef1de9b777109852ed30177742bd9ed57",
+    "b8d584683e6528206600af6139c99a58e2226e7b77efd7de639ddd483d23c7b5a2d33be2376b23da235f65d1263a311d"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.130"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.129",
+   "published_at": "2026-07-24T09:51:09Z",
+   "measurements": [
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac",
+    "b6f644c2fede860a219336caaa8d5444a41b81f0d0e57e4bc219bd6d75884ac7d83156db8ee8f13337e66b7fcb28ad38",
+    "d1e13d7f657d94159b586657b82fa691f9b79a63531f93e5ed7d58702f70e735e37e4433e635c818455f0ff9eccb82df"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.129"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.128",
+   "published_at": "2026-07-23T06:55:07Z",
+   "measurements": [
+    "51d42248438f9a3b5c8efff4ca676c504c1e54575962d44e5e3b6abe3bf7a2a1bd21ca42644b13f11c739dd724846a78",
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac",
+    "82ec4c1d0c1e2e6c204a965513016e9da0a4e655b7e894476b98ee5f1718d8a36699738814cc811d349a1402f46ce2d1"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.128"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.127",
+   "published_at": "2026-07-17T23:17:54Z",
+   "measurements": [
+    "1ff3993466a6f7bb4a20305be0a19e5e4b43f1689db37e3585902cf50cadd4fa05b1d3a1b7f15f2677bd4873ea41c529",
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac",
+    "bd664ebbaaae9b5d7a4e1522db95a0863905b751e9e43955ae22f911876ea2de4c96d5b1039d5d979f7dea8a77b1e02d"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.127"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.126",
+   "published_at": "2026-07-17T18:20:24Z",
+   "measurements": [
+    "3508a425c2eabecdbc37b519c36f0a5f2a9658e94691be4eb1a9e2816b742bc07df4236563b850781f856b96e808bb44",
+    "5b9aef6d3e9c7ca86783bacca9096d094c018f83f732451f728996444abec0b900cc0d596ea6c1380a70cd198a6440cf",
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.126"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.125",
+   "published_at": "2026-07-17T07:11:20Z",
+   "measurements": [
+    "28bf62a1e05ec95740461e7c856a57a225fc12ab01d7098477b85a62d932f00c8f5d92e2aa380d3f7e1265753859575e",
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac",
+    "c248589d4a451e3b9f0701972fe99bf0307e97f9279ab0883b80024497560ff9e42a98a39dec3988f9040386cd618354"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.125"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.124",
+   "published_at": "2026-07-17T03:12:52Z",
+   "measurements": [
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac",
+    "ac6309bad3867c459616e534132f78761139e72dd533bd54e62985b768042ff41ab598318b21c89e2e432b6d814e4f3e",
+    "f85f54ecac483cb6096804c31b91fd5a06178b51ef65d9bf6bb0b4dac5a43f94673c28b0cf1f94c764030916f26bab81"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.124"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.123",
+   "published_at": "2026-07-17T00:59:19Z",
+   "measurements": [
+    "19b25b99fae1dabcf3ab95240e3131463dc79b3b0fed44eca68f4bb80c4cb0f738ef19da592810027ec5ea2b02cad044",
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac",
+    "d2ccc5957a7fe3c3018417e50deec86f416034298c55894ddfe0459df5145ddb04a64f30b87bb4a4c076d024f71c31d4"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.123"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.122",
+   "published_at": "2026-07-16T18:25:00Z",
+   "measurements": [
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac",
+    "da514c05742f58c42dfcc3be0cd0ab8147efa4204b4c98967effde94b77aa4460a069c954f9715e7d76f7f61a7b1f72d",
+    "e6250e62a218d792249cbfe59e581dd7a70a703b391c9d15b056eb2d956ed1b42fac306e8ccc06ed4676829032312cda"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.122"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.121",
+   "published_at": "2026-07-16T01:59:36Z",
+   "measurements": [
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac",
+    "95a9d4ce6f65f281a2cc5c8ad0b063a335599f39ef1b2d6525d49403d2cb6dd596a350da848afb5e65b296658f3a4f14",
+    "98f51239d249b22e13e21ae7568e1a8b41042ba9484e3377c7a5806b53135d720d6bedc44a79c4a44df251a2031ce7e0"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.121"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.120",
+   "published_at": "2026-07-14T01:43:51Z",
+   "measurements": [
+    "50e3af9fd1713b807347e7a73053e4689f2e9a2060a7564293e58b42a9e3df88c1aad74b42856d2d9266ade0cf01c4ac",
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac",
+    "cc43eccc99f5619e6f9d204d51f42ddf89a57e164c1da59764ae414ae4f79a6e23b0baf89bc369cb59cdaf56275015ca"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.120"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.119",
+   "published_at": "2026-07-13T23:17:58Z",
+   "measurements": [
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac",
+    "7369993bbd973fb68991d8362d29a017cfeb8279f24d8e47b1417d29e8fb3ab6e845b3d765e29b59fe201064b93c851e",
+    "fed8bcd50c0d860059fe3bd3a56ec0d490146be4d6da14cafecaf506a6369b85deca6062720b73bce1d645fe8c0ad9cf"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.119"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.118",
+   "published_at": "2026-07-09T22:12:24Z",
+   "measurements": [
+    "1d80e895470f6194957c4e8a10bd22b1c6cf4d4178f85b9f7fc1c1c16a85c75f7810a3ab73861df8403d0e21d78ffad2",
+    "641214272a968aef6b69ed7515921ef37e301a6397527025c864624c7d24f9847d90df0eeb29fb92eeefea9588759bac",
+    "866897839f95871964b51df742e97de29df53203d273faf2acefc5efbf449eb368acdfdf2a5f48da1a686ee1943cab78"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.118"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.116",
+   "published_at": "2026-07-09T01:28:04Z",
+   "measurements": [
+    "2c0cc898fea5406e860d0846ce091c59be0aa6435391bd609585fbd138e58711bc1955ef0b7105b35024ef6278ed5303",
+    "46658ae5655794d3ea0130e2d425aa002f224c7a47c1eb1792f656d79f808aac6006ce84d71ee24d97c3eea42c867e51",
+    "c4c1d59229a21b5b1b6660ba8a18087575e0895536fa63459f1437c880b592115853a5cfd9b7e6514f372fedbae637f5"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.116"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.115",
+   "published_at": "2026-07-08T05:13:29Z",
+   "measurements": [
+    "2d334538b2abab3e51c0af976162b522ac6ba3433383c8cb6b8fecc2eec79321cf9305d6fea42861ce64b54e004124d0",
+    "46658ae5655794d3ea0130e2d425aa002f224c7a47c1eb1792f656d79f808aac6006ce84d71ee24d97c3eea42c867e51",
+    "f1ffdea22cb5ed4a5d8bc332eef7bdd63d1a938e2c474067b26667b1b74a0f5764d431bcda4da7dcc4ad46b0940d287e"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.115"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.114",
+   "published_at": "2026-07-08T04:07:52Z",
+   "measurements": [
+    "46658ae5655794d3ea0130e2d425aa002f224c7a47c1eb1792f656d79f808aac6006ce84d71ee24d97c3eea42c867e51",
+    "65ba6b928d2dab2cd2d6db37bb93b87ff7e91dbaa4ad9110591b0a8da8ca19aae7481bec1650dc1fb830c34d7eb14411",
+    "e1689d159bcdc46515b50704bd88da914f02f5b151c6ec6c55c6860d2a03121df1f9096e34f9744907eb1ab448e99845"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.114"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.113",
+   "published_at": "2026-07-07T23:33:51Z",
+   "measurements": [
+    "46658ae5655794d3ea0130e2d425aa002f224c7a47c1eb1792f656d79f808aac6006ce84d71ee24d97c3eea42c867e51",
+    "757b3cb99ee0e575dde7206aafc671c382728375d9610caf427198c893eb6fd46250b968bbd59b4f12242910adde8634",
+    "bf8b7752e473138cce43f4ed0f4f977354e0e6ada1a60aec2ae06094201067b07199d642daaccd55bfa6e7f5c1e82f83"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.113"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.112",
+   "published_at": "2026-07-07T22:39:54Z",
+   "measurements": [
+    "46658ae5655794d3ea0130e2d425aa002f224c7a47c1eb1792f656d79f808aac6006ce84d71ee24d97c3eea42c867e51",
+    "5cfe0d673622f1747bd0b88e0651c288ab2c5ce58f224c5962258476a6b51dfe17039b6a0ea9d5d20b93da567e185e8f",
+    "6df6554cae4f0831ec2f21ee973e8a8ab10f5addf917c7af271580298c1e7922a302fca2d32b4999608159aa358ef55e"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.112"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.111",
+   "published_at": "2026-07-07T18:58:25Z",
+   "measurements": [
+    "46658ae5655794d3ea0130e2d425aa002f224c7a47c1eb1792f656d79f808aac6006ce84d71ee24d97c3eea42c867e51",
+    "4a81bee453a2b23ca4765715b8d3f5f648c88579ccebc08ba932964253d42e74e65e7a2a29a882dc11c102a5258c6deb",
+    "9fa0555b09912304da788f6148e29373fdff53ff794ebaca8cb43fb8626d03059fb826a9b1e24c5d806d9c4f8925cd91"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.111"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.110",
+   "published_at": "2026-06-23T21:51:07Z",
+   "measurements": [
+    "46658ae5655794d3ea0130e2d425aa002f224c7a47c1eb1792f656d79f808aac6006ce84d71ee24d97c3eea42c867e51",
+    "7adcb574b1e22ab579f3c883da3e5b6e632ef06775dd13fdb16850640135a5f63c7eb8741fe340c672edaf241bd1ed7c",
+    "daf6e3af4a25aa93e38bf07f0055f5bf7ff742f490c463c4cbe85822317c76233ff6d3583c8c507ef9fd9ce6994e33ec"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.110"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.109",
+   "published_at": "2026-06-19T04:55:17Z",
+   "measurements": [
+    "253103637ce3d02c76e5702b5770b32486c012f618532df489adb3653b169ee22efc32b4c4c4a184bedd9c8e6ed4fd92",
+    "46658ae5655794d3ea0130e2d425aa002f224c7a47c1eb1792f656d79f808aac6006ce84d71ee24d97c3eea42c867e51",
+    "bebbe5cc7b3c2f4eabfc2015416d253080f304fe66bb5265eadd49e42c0e4e810f4dd26a0a397b81536562ca4ef291e0"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.109"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.108",
+   "published_at": "2026-06-19T01:00:37Z",
+   "measurements": [
+    "46658ae5655794d3ea0130e2d425aa002f224c7a47c1eb1792f656d79f808aac6006ce84d71ee24d97c3eea42c867e51",
+    "6bf62c62217b728c79648ddd1af137c7093714dfbdae3609cd62186e555509818967d2b5bbd8c0c7cc9310b048cd9a05",
+    "8076ab3dc6e7d613e3b0a03841e572c857f74382c11f0492c2111274435b2df2c9e1879e03addbb8c0b95468e1136b8d"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.108"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.107",
+   "published_at": "2026-06-10T22:22:21Z",
+   "measurements": [
+    "2b4c88e7dff7e4266d7bd280214b9007c11c0cb24c88336cb3c5e86eb612d0caee198de898a6ad64ca5038b9710304b2",
+    "46658ae5655794d3ea0130e2d425aa002f224c7a47c1eb1792f656d79f808aac6006ce84d71ee24d97c3eea42c867e51",
+    "a57104fcc1641c29bb475d60be4265db6c11b4fae2f66ee33bbf25961bc54e3f4a8678069bc1ad7f1d843262b9704be9"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.107"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.106",
+   "published_at": "2026-06-05T21:27:58Z",
+   "measurements": [
+    "46658ae5655794d3ea0130e2d425aa002f224c7a47c1eb1792f656d79f808aac6006ce84d71ee24d97c3eea42c867e51",
+    "d4a3ff8fd674a4444357b27e8ce0f2bd1e5f8b50743847e2aea43a7acd870e6548065bf48442f5cceb7d41efcb0114d8",
+    "f43a9c66c563ef6684547880d085c3d2c5107e541f43d95b78f1c337960cf1989a6b401f148bc7f8b9e8b38d1570688e"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.106"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.105",
+   "published_at": "2026-06-03T06:50:30Z",
+   "measurements": [
+    "9394ed8545c0af39a16370210f516e709495194d62ab64f03535cae1edc5c7932912df360b53a5302d106900587f7192",
+    "98262919d9dad02a669b4535c6c8c067a048b891352c80eff7fac5f50704764e209957e69de613e5cc3da6c497212f1d",
+    "f0aedbaeab5600038c430fafd8f8c9ca5c741041f8e6b083dc59408f130331c8b9a357b803f8b6e0af17770c1c223bf7"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.105"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.104",
+   "published_at": "2026-05-24T19:40:44Z",
+   "measurements": [
+    "25776272a62e44352362378ceff7769e9b18bff9ed1296206e257e56286c2140b7a553396914b5b06dfd9bd0611a1105",
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "b126c633a662ee13b77c8ff21cb29b9ac2da92674d290298a52b259fc74f6e9ed4691ffb240587834777a52d24e19f69"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.104"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.103",
+   "published_at": "2026-05-23T00:11:23Z",
+   "measurements": [
+    "0b750f4f181a38598a1d13edfea00fc17153546252c296b7b6e498956eaa7c806199424e6078ff051d927b3997e12ba3",
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "957093b023790717ccb93dc86c85b29e89b78e2e14e38c3f970084cfad5a3e5db256a15be3f492ea43e76d591dbdbe31"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.103"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.102",
+   "published_at": "2026-05-15T22:58:58Z",
+   "measurements": [
+    "0a64f1b64b0b39b86d5b19acf95c746f9b9c99ac3bb4c64bcc976521d97dc46109a965363bc436c3be9b5b3b2c4a9f49",
+    "12498bc720197443c0753d33bc3e21eba5b92fa51f0bce130f4335e925ea4e3a9cbeca728f0c74f869cb27609fdfd0f8",
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.102"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.101",
+   "published_at": "2026-05-13T22:59:26Z",
+   "measurements": [
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "bab1555987d19a3437d716b3c305701f6cfd11de19782d498e082c947cbcb46f584fabb6390271bc9e49cacc4f9e4201",
+    "eb25b0265bdfb4cab6c4c2050748a6649bd3d1f36bdfe0461438229e011b53ecc6a07862b2c93900caff143d9bf597e9"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.101"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.100",
+   "published_at": "2026-05-13T22:41:33Z",
+   "measurements": [
+    "3b3b3ffb3e32682e15aaa15fa630c09da3d70d3b236a8dbd0c01f24c0002d74cd71de0e4eb70e648eaa05406a8281ae3",
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "9d9dd2084a4131243bb8e56c309b8cbd90dee94b29c0fc9446880305a8988c5742d5de67f41a846a84af582e5f157bf1"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.100"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.99",
+   "published_at": "2026-05-13T01:22:27Z",
+   "measurements": [
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "b5e0e9e2422bb06cf26914aaa2d313458d509deaaf73e8b5dc74adeddb78b506d0ff38461d5035066f814b62a15727ff",
+    "c44d76a1e9fcda1c924691b15b84c3313fc8f99842929de302fbe309fb76bcf311a699249dc7a74c5ffbcfa5daca6777"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.99"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.98",
+   "published_at": "2026-05-12T03:13:04Z",
+   "measurements": [
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "761e03edb9d10327f890c2cf38bb32cd895433aafbb3a25b0bffd2c1ed3b3ad2229936c9e2e2dd1cc09699a64ced9d7f",
+    "9aa88a5cb34aaa84cf88a6fcc77bc99e5a1e2ccfd3a65875abbf419892022faec3e599d06ac22063c3a5caa13bfba7b3"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.98"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.97",
+   "published_at": "2026-05-12T01:18:25Z",
+   "measurements": [
+    "3471ce789dced5aa56222d08dfbf037641a1aa38c54204ce2aa96c742abece7429ff4f6c48e9cb1bc4f8b5f7d1c59f66",
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "a9cf2fdf94bd82132e82e550077bdfea14b440fb9a746ade29e7d73349605ffc84fc7fdded1975db5867ef20f47d9b15"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.97"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.96",
+   "published_at": "2026-05-11T22:28:50Z",
+   "measurements": [
+    "2fddd72d7b6d8719249b2cf652eb929408f48fd5e1b6dec24ca18f370666f062961f44bb1ed4cc121a25eee45b18fc05",
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "59419aad437386e72ca13c46cd8482e13ed6f69cc2a5f740520daf24d794cea2c39408aa38535f0907fbb1579ae487ce"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.96"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.95",
+   "published_at": "2026-05-08T01:28:56Z",
+   "measurements": [
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "69430057351ffdc27d51fdd8f9e113cc23c2b2f485a1cd318f46585f981991a2fc621f958f5f9e13b6578f217c654709",
+    "84b684bef1006266965cc8cc850a53563d8fac5b270f4a0e1a35fb8e564c9b58cbd310c04c68aac6385c88ec0b017b21"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.95"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.94",
+   "published_at": "2026-05-07T21:41:17Z",
+   "measurements": [
+    "0b94329a68f04b1d1b5b4d02c60fa5545fdef3a750a6490010cd4b74cc9b7a94b4dd2eaaf6fefc4ccfa567db52dc7932",
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "b071425f7b5c2729b7bdd4d54b8ca150262d5c63e5bd549c859c3c2e7278b2f2c49e5cf3db5a1b151fefb27bb62cf408"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.94"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.93",
+   "published_at": "2026-04-30T19:40:13Z",
+   "measurements": [
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "adbf757c4cadc812beb6dc224418d2c30a9ef0c592782328ce7119decd634df84e3ea5e5ab95de09be8ca171b234fe33",
+    "d4c59c42226774264b35b5b59238d1ad13a84dc22f2fbbdd49c43bd5673a37d18af164376e9d295a58af9be3c9a0ada3"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.93"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.92",
+   "published_at": "2026-04-30T18:37:00Z",
+   "measurements": [
+    "35996c47000989dfd5baa3461fb091bc9be1c37d3e578ecaf3ce7960bfd6de88a4f9419f44d5a20c2e7f7aab2d4540ed",
+    "4a9b0b939d9e5d1b3fdd2ecfc3f25f65208c65873178160cbb9a221aaaafb9b42b4fbc910dfe5211402aa56d40ec3cf4",
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.92"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.91",
+   "published_at": "2026-04-28T23:06:37Z",
+   "measurements": [
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "64e8af1427c39087d030db14a894d9ed1212611d8abf7245d8da4d425b5871eef5863740ce8e3586d1934e24e5fac959",
+    "e1eb892bf0aa9e60e48f74afadfd0ba456f200a2cd80056b87fde2ad05050bcc4bfb6d0bb49fe92a2b3728791e713358"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.91"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.90",
+   "published_at": "2026-04-28T21:37:33Z",
+   "measurements": [
+    "2df3f0e45aa0e4a33a5d0a6a826f442cbf24a342eddf00200d644200de7760fba98fecbc9890a1420c8a8b668905a9af",
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "627463292432f066a0fafa924677d0c726f0b15c4416a1dba35c6d4e74e6e3f591aaf2cd2ffa035c93a83793172b13ce"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.90"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.89",
+   "published_at": "2026-04-24T06:42:41Z",
+   "measurements": [
+    "339eff182cedd9a8f3e6218588c6173fd2a4855dd222e6928f85eb2a33213b3417682adb462115ad8aab48de168bdcd4",
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "a556afbcb97cab8b31606df387c5267e6b420fdd032cdb5681d1b2119155ed70ab936c906aaa4b8993f4947fa92aa006"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.89"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.88",
+   "published_at": "2026-04-24T05:04:05Z",
+   "measurements": [
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "a5995bcf58480c06e6dded31ec2d8625d7a5e4139450b088e56a26dd517118de1b878652978ff88621167fc2f12baebc",
+    "fd1d1911022b0342645bbdd6ffc03877912482792f6da35ace239371fad388232fa0d15eb03b59cea7fb1273ab926385"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.88"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.87",
+   "published_at": "2026-04-22T01:32:58Z",
+   "measurements": [
+    "38d1fc76c6ee7916957d2cc7c300a58bffad2576d4bda477d1ebf3d28ca4e24a6d42048597fcf5ef8373d8049228c8f0",
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "7d7646f3d8aebb0f326afd56df8a8a22c703dee863b9ffd479529566e241174f2861241339c561d5829d80156b66920d"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.87"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.86",
+   "published_at": "2026-04-21T22:56:11Z",
+   "measurements": [
+    "39c85f8ab8b1c8c8d5e6a7da719372cfde7c381deba91b3c52bfcfc23e809b271e3d0e936256b6133deddb0efdac49e6",
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "a2cb9cba7e50971ca901a8c78c6800453b4021a535980ce19c823f5a719d48fa9ca81b043e45401e184e8126eebe4eb0"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.86"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.85",
+   "published_at": "2026-04-21T01:38:44Z",
+   "measurements": [
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "a15710f9bc136953c124a17ccd872c0a421135841eaf9be2b6b4793ec6f6b0c1da82b89d046cdeec87c152b799690969",
+    "e1055f517e7bf78938dd31cb238085f3ef9bc426e1631f64d9eaa86da1546a9062ac13de681133eea5effa465fe4f4bf"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.85"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.84",
+   "published_at": "2026-04-10T01:46:52Z",
+   "measurements": [
+    "49e134efb1b8415fd5d3b04683a6760558e3a103e0bd516afb86b1475328dd8d3ca009b4be847ea4fd7caef2ada6b421",
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "f2214f4e72b9fdd7f2a842020f17d1da4c3e2c324487b9396ad1891c2ebf5c7c25a5a78f4b5c5855136dd619bc77b5b3"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.84"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.83",
+   "published_at": "2026-04-09T04:31:36Z",
+   "measurements": [
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "85fc3906b3e2bd2d10e4b3411016c13aec03ebe2e2777159e9abdc46f24d4e47146c92664971d0a38ffdae8276ba80bf",
+    "e6bccb0314f2bd5db061625eab7fb0948baabdc2a795cb3503a93394de309d266485364c829cf811470c5c248e93fc56"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.83"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.82",
+   "published_at": "2026-04-08T20:14:37Z",
+   "measurements": [
+    "3101fac8a5c95de61b6e6fe1647957374c3422f20da685086d0d71f510991f698dc80eeb4aeb2871b754d938f271a725",
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "903e7371df42ae7c92d827b5f95acdbad5fd1683e97ca38b7accfe5b19e9354613dc83bbca1eb0b74d5cc06d3c84e62c"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.82"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.81",
+   "published_at": "2026-04-04T00:29:03Z",
+   "measurements": [
+    "34cd93a0c2ea0629323c09145636a25a0ac1ead868ff9337e315fb3ce846763eb5c5c97a4927c34b24bb513e8f74db70",
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "d6848e43be21b268536059930c717abb7004279e860cbbb8f88be8a48d250d972276d936c0896bd157984bbec77d4919"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.81"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.80",
+   "published_at": "2026-04-03T21:10:08Z",
+   "measurements": [
+    "26e700facde231f2ae853743d221d37ae461ce7beb7fa55f5afe29c97611490f52a258e23b68c1b94a4230bf79d66913",
+    "4f7be53273f4ed3114e7578574f98eec533d5a18484e4e8a5feef1672b4a94e17646e7ab9e1f3c722faea496bac4dc8d",
+    "db3c652ae95517c259e146db17de7c3f692f823cfc849d9e4f90a6895216bb0fa5e294221a5e49f6e78ad2c39c114d6e"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.80"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.79",
+   "published_at": "2026-04-02T02:52:05Z",
+   "measurements": [
+    "15c2aeeae78cd68b574ae971be0d9b404653feaee198995ccc972fcb25f267acaa8c1d3a1b052734f4fcad583331b12e",
+    "2b24e7d18c2c6de912cfe32218bfb1a66d961cc3b06d623651114905bf617de95035ed47330ffa12cfb3847c3a369b37",
+    "727f33421ba6f289eb5e2d4e27391cc8b0fcda181879dba38d87ce789dfad11927380ff32d016b6b7bc8733179b10753"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.79"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.78",
+   "published_at": "2026-04-01T19:04:07Z",
+   "measurements": [
+    "2e20763ac6a6f92c1e368abb99a38556e6641065102566a76c92c7b451182872b29dde7797e73af8f81a8f7189ef3f1d",
+    "727f33421ba6f289eb5e2d4e27391cc8b0fcda181879dba38d87ce789dfad11927380ff32d016b6b7bc8733179b10753",
+    "796de90863fcfb5cb9270983f1a7e43c26869191f99ab8301b0f90a1b89e4c2a715d09e26b52624d1585e3cd95bc5679"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.78"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.77",
+   "published_at": "2026-03-31T17:51:12Z",
+   "measurements": [
+    "0fd23214514ef717881179b954dc06618f6abe13b15cd372e040047e2a28cb7b56d3bb482ededfd12f0f5caf7880ccb4",
+    "727f33421ba6f289eb5e2d4e27391cc8b0fcda181879dba38d87ce789dfad11927380ff32d016b6b7bc8733179b10753",
+    "a42bdbe722322b2ccf9c81a97d0180a712504b06c6be372ffc2dd4962ebba3938bec3cbe76c37f6b7011dfeae1707fe1"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.77"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.76",
+   "published_at": "2026-03-30T23:46:52Z",
+   "measurements": [
+    "1949319b530bb5b59f7a286e8b1e59ace758f32d11c080757ece4cc8979f5878378170865577d11c31024827f36b5857",
+    "727f33421ba6f289eb5e2d4e27391cc8b0fcda181879dba38d87ce789dfad11927380ff32d016b6b7bc8733179b10753",
+    "9aa7133813bc1fed0914272a15fc3dc781ca0ebd1db15c159551494a7b9071af7690c6ec23628dddeb89973cf49cbd5c"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.76"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.75",
+   "published_at": "2026-03-26T18:04:48Z",
+   "measurements": [
+    "727f33421ba6f289eb5e2d4e27391cc8b0fcda181879dba38d87ce789dfad11927380ff32d016b6b7bc8733179b10753",
+    "8118e2fc66a0d0f6bd5473a85493c224995d700928788219112bedd531868b0ceb7248b75427218c4fbf23b8e62f796f",
+    "c4a4c013a36ee9a55b4c25636276dd05c96407c5500a895e2932f9139403470d1116c1df0dbbd3c6891c607c134e0576"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.75"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.74",
+   "published_at": "2026-03-25T04:26:11Z",
+   "measurements": [
+    "727f33421ba6f289eb5e2d4e27391cc8b0fcda181879dba38d87ce789dfad11927380ff32d016b6b7bc8733179b10753",
+    "a6a3fb9919b1521c535541f0d8d4716e84e75a3ea29a02ad644867fd73d152a385d21326b213aedf0d176f6e730b82d5",
+    "cb5f7c127af60268407396a0692fe6c7f669a70288cd7fd56da3a7e140cdd1183b86dfba86ea16ceb7a6d47820d57a1d"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.74"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.73",
+   "published_at": "2026-03-25T04:13:50Z",
+   "measurements": [
+    "727f33421ba6f289eb5e2d4e27391cc8b0fcda181879dba38d87ce789dfad11927380ff32d016b6b7bc8733179b10753",
+    "e3d992ced1afba5fe7c76977a5f7ab01507997ef528b0692f8ff92fe3f1aa4ba3656c58e682d5767644889b3b43147a5",
+    "ed4d38a6d41f29d916fbbded5fff2ca64ec3ab002b04a7540fbe77e834fbc89af6b8949e6f19d3e9f8e33f6aedd8d717"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.73"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.72",
+   "published_at": "2026-03-25T02:22:51Z",
+   "measurements": [
+    "727f33421ba6f289eb5e2d4e27391cc8b0fcda181879dba38d87ce789dfad11927380ff32d016b6b7bc8733179b10753",
+    "e3d992ced1afba5fe7c76977a5f7ab01507997ef528b0692f8ff92fe3f1aa4ba3656c58e682d5767644889b3b43147a5",
+    "ed4d38a6d41f29d916fbbded5fff2ca64ec3ab002b04a7540fbe77e834fbc89af6b8949e6f19d3e9f8e33f6aedd8d717"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.72"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.71",
+   "published_at": "2026-03-25T01:36:20Z",
+   "measurements": [
+    "727f33421ba6f289eb5e2d4e27391cc8b0fcda181879dba38d87ce789dfad11927380ff32d016b6b7bc8733179b10753",
+    "79e581ceda7ba8808fba271536c90d994dbafc2e3bca0b9bf9ae787a83c58cc6f6ec10d3f01e41f580c377afe51ebe37",
+    "9c34b649d0b9c538fe28e740d3fb029be76ec7ad8c04c636f0b52a237e3bdf1fc653001beccbef0a31d9dfa2c65b38a8"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.71"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.70",
+   "published_at": "2026-03-18T13:02:26Z",
+   "measurements": [
+    "16bdc21289f211ad136a17737975bee4016be64a6199912fb1ac78fb9556de72e264fa415ab24508a58d5935945c0ffe",
+    "630af778a62ccb543893f27e9669d8b52c73e3829d75fb7efa626af5c108c56a367b5734a62a93ec347111ee064011bd",
+    "f660b94f20063a5882dc6e9affebf85f421bee83b28300a3a1b8f3bd1aad4cac8179e6539e51cafdf2d56571a26b22a7"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.70"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.69",
+   "published_at": "2026-03-18T12:58:35Z",
+   "measurements": [
+    "ccc8da239b1500c245b252f8f90b0bd71591114c42f37a1ef0ffcb7aa892a1304a6ab35d3bbb9f3d1f4120f7089ed985",
+    "eb3378e8d8880ea6b69ab71a026c3f5822e7685873af5b278088ebd55ff44ca7dd15b212e391971baa68e0de8744a822",
+    "f660b94f20063a5882dc6e9affebf85f421bee83b28300a3a1b8f3bd1aad4cac8179e6539e51cafdf2d56571a26b22a7"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.69"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.68",
+   "published_at": "2026-03-18T03:51:02Z",
+   "measurements": [
+    "ccc8da239b1500c245b252f8f90b0bd71591114c42f37a1ef0ffcb7aa892a1304a6ab35d3bbb9f3d1f4120f7089ed985",
+    "eb3378e8d8880ea6b69ab71a026c3f5822e7685873af5b278088ebd55ff44ca7dd15b212e391971baa68e0de8744a822",
+    "f660b94f20063a5882dc6e9affebf85f421bee83b28300a3a1b8f3bd1aad4cac8179e6539e51cafdf2d56571a26b22a7"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.68"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.67",
+   "published_at": "2026-03-12T21:55:35Z",
+   "measurements": [
+    "6659dc176b2202d7155f0c6a83328279966d9ed51051fbfbca9f06641ce0985a3c2dc723787cdc2fef10adc5da8753fb",
+    "b3268f11dfb331fcad970a3418cf8e7ebec132b0c6d6fec451881e303803b8fdf1366835b896640e90dfa963ed40716c",
+    "f660b94f20063a5882dc6e9affebf85f421bee83b28300a3a1b8f3bd1aad4cac8179e6539e51cafdf2d56571a26b22a7"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.67"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.65",
+   "published_at": "2026-03-06T20:11:25Z",
+   "measurements": [
+    "53220965fdce65a8d267e5fc03ac47722c155a22f15dbd59be39176a60dde87e5ec67a91d525faca9b8ee0b48358953b",
+    "572179d7cd741b7c5af41811bf0f0d31f081d7ffb1639beb590fdb9a5e1e26730e8ebce515c71c7cfa57cd4b6da7737d",
+    "94b7c9642c93afe1f120d74dc95b460f829e62d17ec4709396661a4456da43deead5e5333e26f0c6c7c7b6e622d47534"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.65"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.64",
+   "published_at": "2026-03-06T19:35:04Z",
+   "measurements": [
+    "7b62ffca5e9f5450369daaf8899bd91140c2dcfb8a670a07c4a95c63d97c98d208d6bfd017024c5060032bc833c161ed",
+    "94b7c9642c93afe1f120d74dc95b460f829e62d17ec4709396661a4456da43deead5e5333e26f0c6c7c7b6e622d47534",
+    "d1318be4857c82a1b3fe437f074347295a252a92de30d49c5ad8888900668767911b3cc94371d6db2a58f988881d551f"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.64"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.63",
+   "published_at": "2026-03-05T19:51:03Z",
+   "measurements": [
+    "7b62ffca5e9f5450369daaf8899bd91140c2dcfb8a670a07c4a95c63d97c98d208d6bfd017024c5060032bc833c161ed",
+    "94b7c9642c93afe1f120d74dc95b460f829e62d17ec4709396661a4456da43deead5e5333e26f0c6c7c7b6e622d47534",
+    "d1318be4857c82a1b3fe437f074347295a252a92de30d49c5ad8888900668767911b3cc94371d6db2a58f988881d551f"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.63"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.62",
+   "published_at": "2026-03-05T18:30:31Z",
+   "measurements": [
+    "01e31adb7c2d482cd93492adcc22944eebddf7da1c1cdf89ea5980642c5540ba4ee11d4e57d0aa9453f60ee0bcc72bc8",
+    "94b7c9642c93afe1f120d74dc95b460f829e62d17ec4709396661a4456da43deead5e5333e26f0c6c7c7b6e622d47534",
+    "ad38192c12603bd27600cd4aab45dfd89ab53d7fbaf2196235679aa05ed7e564e1fb27c613dd4a2f4f0f9b81ccaee274"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.62"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.61",
+   "published_at": "2026-03-01T02:36:09Z",
+   "measurements": [
+    "01e31adb7c2d482cd93492adcc22944eebddf7da1c1cdf89ea5980642c5540ba4ee11d4e57d0aa9453f60ee0bcc72bc8",
+    "94b7c9642c93afe1f120d74dc95b460f829e62d17ec4709396661a4456da43deead5e5333e26f0c6c7c7b6e622d47534",
+    "ad38192c12603bd27600cd4aab45dfd89ab53d7fbaf2196235679aa05ed7e564e1fb27c613dd4a2f4f0f9b81ccaee274"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.61"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.60",
+   "published_at": "2026-03-01T01:42:45Z",
+   "measurements": [
+    "94b7c9642c93afe1f120d74dc95b460f829e62d17ec4709396661a4456da43deead5e5333e26f0c6c7c7b6e622d47534",
+    "a4f1c437fa5f254af07d893810bfa6ab46c225ae7a9af3a8982a8f3628eaef5f29e345fc6f8549649f1549418f0f25c4",
+    "beb0ec525bf49e7231d32d83e4accc0cb523056004b4b1bd7ec81cb63fd5d162c1db7e870472cb16c3d58c1260233657"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.60"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.59",
+   "published_at": "2026-02-24T04:12:42Z",
+   "measurements": [
+    "94b7c9642c93afe1f120d74dc95b460f829e62d17ec4709396661a4456da43deead5e5333e26f0c6c7c7b6e622d47534",
+    "a4f1c437fa5f254af07d893810bfa6ab46c225ae7a9af3a8982a8f3628eaef5f29e345fc6f8549649f1549418f0f25c4",
+    "beb0ec525bf49e7231d32d83e4accc0cb523056004b4b1bd7ec81cb63fd5d162c1db7e870472cb16c3d58c1260233657"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.59"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.58",
+   "published_at": "2026-02-24T03:52:11Z",
+   "measurements": [
+    "149f362a22345182e68334216e23a0fd243f4c389390810882acc451640e34d708476a5523d82cab510676d92ed514bb",
+    "338fdec94d3e64a52a5640cc9fb4710f9b5b8446008ef8c235b7e7d0ea246f9cc847fa80aefe1fa1ae4e57d86ed661c4",
+    "94b7c9642c93afe1f120d74dc95b460f829e62d17ec4709396661a4456da43deead5e5333e26f0c6c7c7b6e622d47534"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.58"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.57",
+   "published_at": "2026-02-17T23:22:16Z",
+   "measurements": [
+    "827dec54a5b6f0c17e7aeb2504b93113ae3dbe4d7380ee6e236ade426d75fc88788032c209e7effcd77834edda18f237",
+    "94b7c9642c93afe1f120d74dc95b460f829e62d17ec4709396661a4456da43deead5e5333e26f0c6c7c7b6e622d47534",
+    "a24d1411d3ea5a38d479f3e31b4bed087a8bb02338ae765fd2d8e754f3a73258210b0781ccccd7d2c5cb09737b23e878"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.57"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.56",
+   "published_at": "2026-02-17T07:45:28Z",
+   "measurements": [
+    "5ed3f24b7a091ef03ef1213386c380d734243dc9da4f416c55a5747b0c0adbf1d1f90e0eef758b1a9d7e73702abdeb14",
+    "94b7c9642c93afe1f120d74dc95b460f829e62d17ec4709396661a4456da43deead5e5333e26f0c6c7c7b6e622d47534",
+    "f09058145a188a5b5844e3a107a0781f0a944834d46d642a9fba37e4854d011fd1ec8003fc22f1fc55b25c4f25ed1e44"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.56"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.55",
+   "published_at": "2026-02-17T06:12:04Z",
+   "measurements": [
+    "4bea68b468b1d6f77c1dc27c49f2124a49be0ae005f3b4dfdf956a38884cb754b8fd6334a0e6cf4fbd42d87b80193a0d",
+    "670ab397a6653dc39f7b7ad4a5a3ccf0a6925d6b40bce0a096a341bda16682d8b239481187ce637f3997a739eac905c5",
+    "94b7c9642c93afe1f120d74dc95b460f829e62d17ec4709396661a4456da43deead5e5333e26f0c6c7c7b6e622d47534"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.55"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.54",
+   "published_at": "2026-02-17T04:01:49Z",
+   "measurements": [
+    "197679a451add7b3081ff8ff2a4441eb5ab217ee98a2fff61b1bc5882b199bfab1f64ee182e0f4f3d2f7bb340aa76509",
+    "3f5531324a3ce0a7be1378fe735b50941ccae82f3d04f691b64f8004314ff272cf9f5d5838c06b66297a276740c94d76",
+    "94b7c9642c93afe1f120d74dc95b460f829e62d17ec4709396661a4456da43deead5e5333e26f0c6c7c7b6e622d47534"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.54"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.53",
+   "published_at": "2026-02-17T02:01:14Z",
+   "measurements": [
+    "5394b0e89c9150a3e9dbfa7b688e58e3db63d4571d51d7a36ae384fe9af74faae6f3912052946608a5955c643b51e57a",
+    "94b7c9642c93afe1f120d74dc95b460f829e62d17ec4709396661a4456da43deead5e5333e26f0c6c7c7b6e622d47534",
+    "f085d7e67603e2e49c9b96842b14ee52f3f697405660caa6d1ba626a9f2f533986e991abf882cef9e4bdc9d70492fcdf"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.53"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.52",
+   "published_at": "2026-02-11T03:51:52Z",
+   "measurements": [
+    "2e5babc60a88d6282c093589c2b7149901c92adfaf594c37ac787d3dd752d9fd742f6f8dab2922e6668d42f4838f5c95",
+    "94b7c9642c93afe1f120d74dc95b460f829e62d17ec4709396661a4456da43deead5e5333e26f0c6c7c7b6e622d47534",
+    "b69d06a7cfd1aea4a7326ce39e372466b1cf61a524070fb7c18436c05cf233f6aceaab8c42cec498dbc1c90ffa0b357a"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.52"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.51",
+   "published_at": "2026-02-11T00:03:33Z",
+   "measurements": [
+    "6a0540cf66469dd95f4a37572347dfa9cc2645b7f4b947b59c06f28036965649428e10f87b99c033499f2c4674d7f0fb",
+    "da36c5190c654cd568d63e80ffcb362cfbd4b2108d3453e15e422cca994da7b7c8bb7301e6d90e35f22472a60bdf9715",
+    "da6c3ccf4bc762fdb5ce4463ea71fe57298ea7867441309c4f5348bbf32810d2eb2365c811db2ec1b74b715e576f180e"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.51"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.50",
+   "published_at": "2026-02-05T00:28:35Z",
+   "measurements": [
+    "917d8725cb2161d958c1fd865d69e839bf30721e3e84386eb8d20d72633d4c0f8bac4f6a4663868b17cdef8d4518e894",
+    "da6c3ccf4bc762fdb5ce4463ea71fe57298ea7867441309c4f5348bbf32810d2eb2365c811db2ec1b74b715e576f180e",
+    "f95ad7fa91f2034730f22184216b7759b46315d783873531c43c05564343702d4ed1e978ed44f76d04c186b44c6b43ac"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.50"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.49",
+   "published_at": "2026-02-03T02:14:01Z",
+   "measurements": [
+    "6e8baedfe0104c9239aa39e563fbc2d5c8d176af94423248ab0befa226031f1d0542608167169c040527a088e92131e3",
+    "c6b3f233fd69b2d5a4f75f25e324a556ced31a397d059be3e24ef562992fe8c6b902d4b4fa66e564d6f5ee136be6d7db",
+    "ed70cce5fcc21a54182cdbf77b1a514610b1a20208c2230222993e7bf5b43c84da9890fae7ebb8b71d5eed0ddb3a415f"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.49"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.48",
+   "published_at": "2026-01-30T22:53:45Z",
+   "measurements": [
+    "b2ced7cd638edb8e0e1f6f1b66b4118ca80dcdb28429ba55cbf3fc1a9725c33d0f42cd5983479a6146e861bb4a1f8c21",
+    "c6b3f233fd69b2d5a4f75f25e324a556ced31a397d059be3e24ef562992fe8c6b902d4b4fa66e564d6f5ee136be6d7db",
+    "dd44094be51923456484348b7a276d6000570e1945d674c5df443a22c9461a392abd8289fbd91b1dd3353727ff0224f4"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.48"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.47",
+   "published_at": "2026-01-29T20:04:34Z",
+   "measurements": [
+    "4e3c6411a09f9e52ca927694dadaa62ecb2f658285c981c1195e595a7c8011b66122c41495b86cb0fef7f87115daae52",
+    "c6b3f233fd69b2d5a4f75f25e324a556ced31a397d059be3e24ef562992fe8c6b902d4b4fa66e564d6f5ee136be6d7db",
+    "cced5970e647e059335612daafca64d0d1a534bc95f57d8afae24c02a2120ec6c94d4d756505e59ce8810d366f81b4b0"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.47"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.46",
+   "published_at": "2026-01-29T17:31:59Z",
+   "measurements": [
+    "19095b7638ad7748171034dfecdc3491f9ce9fce4fd31f958e156605c1d708d6479ad5177484fd41b87daf710ad45783",
+    "7236546460732b8ed308f74c4e762df6b8b2033e4f15ed02afbe83c81ec98588c4bec389d8bf3c2f14cf2af446ac0d7c",
+    "cd88f684424c7b1ac2a3ab8c57a31d57c8ce46c3e99859944ca5242c9077cad2bf1eb15ac3199e50484b1a561da33009"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.46"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.45",
+   "published_at": "2026-01-29T06:12:23Z",
+   "measurements": [
+    "044b68a46d893c3cc6cb379574d63d074a5f0e89d02a11bd58a3c7543a25312b6779254832fc0edfed65d98dd1acee2f",
+    "26fb15b726b390e21e2ce20fad0fa7ffa92d7eb62197fdede1f7c41a84c7586636d1c87f9f0d355ba614a2c49b9fdd59",
+    "ff5cb146f8bb21132da2d4bf5c67d38603657ea64db48a841e38d52666c25fcf1ab828f18abb2892610ee8724f2779e6"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.45"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.44",
+   "published_at": "2026-01-28T01:43:32Z",
+   "measurements": [
+    "85fe562794cce2012bf4735d529ab2cf83ecf77ce020d324fe4af0bf0b95a111400cadacb21be69b695e0521bf6838ec",
+    "a7ed1bcbe696222ecf956f2c78a3b29fcc8ca24831a4751b58f5858d537fbf29666e7949e8402599c96f41a80f7fe253",
+    "e037581f354fb8d1911ad578f282759a67d70198a1e851e2e6e2a9f25388ae2881c691512d9cd8c6f4fd342173d5de9c"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.44"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.43",
+   "published_at": "2026-01-28T01:12:31Z",
+   "measurements": [
+    "a7ed1bcbe696222ecf956f2c78a3b29fcc8ca24831a4751b58f5858d537fbf29666e7949e8402599c96f41a80f7fe253",
+    "aed2a7c215d9fb69544771aa44233f65db3692e910f09c1d5712721da476bde1ade86d227c6a1032b181abe4b7487b8f",
+    "d5ecc882b436fbe9da3e761783f4379b085fb964e5eb1190bcf2072016e06cce3f2e9573a8625c9b766a9959db8584aa"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.43"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.42",
+   "published_at": "2026-01-28T00:51:31Z",
+   "measurements": [
+    "a7ed1bcbe696222ecf956f2c78a3b29fcc8ca24831a4751b58f5858d537fbf29666e7949e8402599c96f41a80f7fe253",
+    "aed2a7c215d9fb69544771aa44233f65db3692e910f09c1d5712721da476bde1ade86d227c6a1032b181abe4b7487b8f",
+    "d5ecc882b436fbe9da3e761783f4379b085fb964e5eb1190bcf2072016e06cce3f2e9573a8625c9b766a9959db8584aa"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.42"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.41",
+   "published_at": "2026-01-26T22:57:50Z",
+   "measurements": [
+    "3ed2d5ca001ae0c966327e934ccab3071e40517e9b8ed331aefd14b35b5739363a92d04968f060e81585325962bad0e1",
+    "9f52af671e036e9275a30a42bf73a0c3a77a02fa14fedc721cfe1893d2c85a4f1ad2f2e238717f73ea71f8e2984402f9",
+    "a7ed1bcbe696222ecf956f2c78a3b29fcc8ca24831a4751b58f5858d537fbf29666e7949e8402599c96f41a80f7fe253"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.41"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.40",
+   "published_at": "2026-01-26T17:56:18Z",
+   "measurements": [
+    "8fcb3aecaa61ea1530f6e77f5062b53ce721915994576a5f7ab98bc3485614c56a49acdd4f5d98dc1b5f6144952cea8e",
+    "a7ed1bcbe696222ecf956f2c78a3b29fcc8ca24831a4751b58f5858d537fbf29666e7949e8402599c96f41a80f7fe253",
+    "feeef6cd6d28138016136e10942b769a30e928ec19457a08e402f343fae306e70fc808c651904e816e94e8e823f98451"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.40"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.39",
+   "published_at": "2026-01-23T00:55:42Z",
+   "measurements": [
+    "24201d814b28edc81efd71aaef5591e7521921d902362a54429526515b8d4ca4c5eeaa7c294d075e8cf9748fa747df73",
+    "80f541c567cfd1035ac0907e274f8cec654fa51e82f65b86e80b1a1ff838608d96d3ee437be19f39b288ac3f6a01c5cc",
+    "a7ed1bcbe696222ecf956f2c78a3b29fcc8ca24831a4751b58f5858d537fbf29666e7949e8402599c96f41a80f7fe253"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.39"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.38",
+   "published_at": "2026-01-22T22:42:04Z",
+   "measurements": [
+    "09ef32acf90fcfeb6206d1a46c13145cef736ebbb83f18eaff680b686232031546ff5fd39c44599699ee8734cbbeb519",
+    "a7ed1bcbe696222ecf956f2c78a3b29fcc8ca24831a4751b58f5858d537fbf29666e7949e8402599c96f41a80f7fe253",
+    "ddce36c7bebf841b3a4ff0c8c2df63869f102b74904063efc24244bf5b983b44e87f610c73f963bd3e859014903508c3"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.38"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.37",
+   "published_at": "2026-01-19T23:44:23Z",
+   "measurements": [
+    "7fa052fbf5c6b3edd4f9891d3d12fcb8c0e4045b9af55c2c25451cab50a06502c2429703037134e0e49c1b85d706a8ba",
+    "a7ed1bcbe696222ecf956f2c78a3b29fcc8ca24831a4751b58f5858d537fbf29666e7949e8402599c96f41a80f7fe253",
+    "d36264c4419e6b76883da827d34ac607a1c80cb3a50f4fb8082012b88eb998f1476f3cab9a37b6df0919a48b728f22a7"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.37"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.36",
+   "published_at": "2026-01-19T20:41:36Z",
+   "measurements": [
+    "2f627bba6cf73a5c3d6509b0c8644e6e4fc46ae6cf313ee8d839a044452b30c372e36f6162f0f225b0a5b9ab6f0615f0",
+    "9139b4b2df1e2032c7acd1b569e068ca2d51b3d7e9d180c54b6be8ced2ff5c427f3ec2e0d4a310870611516446716a54",
+    "a7ed1bcbe696222ecf956f2c78a3b29fcc8ca24831a4751b58f5858d537fbf29666e7949e8402599c96f41a80f7fe253"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.36"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.34",
+   "published_at": "2026-01-19T20:04:42Z",
+   "measurements": [
+    "58fec94216684e3c6ea9faa78842f1674e2843e46a9f0bd2ceceb4fbf674a2762733f93103f6708294af05c517124a6f",
+    "a7ed1bcbe696222ecf956f2c78a3b29fcc8ca24831a4751b58f5858d537fbf29666e7949e8402599c96f41a80f7fe253",
+    "b25b050e033f9d29bceb965f16bf8c7dc2ca1e4b6d2db2663a9793ad6e148948c6583cc4b6772bfd8fd8cfd178c174ef"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.34"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.33",
+   "published_at": "2026-01-19T17:51:32Z",
+   "measurements": [
+    "06d4b937984bcfea4597212deba14310f57ed1aaaab28d1bcdc134cf71846cd01bbbc01bf164c1deaf76c944bd55e4bc",
+    "2b51c74b90e9b44f41e917b21ba549bc5c9adabde234f31088286c506eed29826becc4acfbf1ed60837181b6268f6e36",
+    "cf254525d14929b2853a640595b0c81ce15ed927a030eb6bf9b51970cd68168a9bf480c8d081b483d6bb9b80c4e62852"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.33"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.32",
+   "published_at": "2026-01-19T17:45:37Z",
+   "measurements": [
+    "2b51c74b90e9b44f41e917b21ba549bc5c9adabde234f31088286c506eed29826becc4acfbf1ed60837181b6268f6e36",
+    "390c480f5e658b7a7debdca82149dbe5e4bfff3a652ae6ce91bbf4d7d9abc0c48eeb617df01f9689035668e2bdfe2d2e",
+    "c26b98669ef67160074265a964fa526c0c05ef9d5037b7ccbe88ae52e517a031930c7228bca9eda3a2fc5b407b425c0a"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.32"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.31",
+   "published_at": "2026-01-07T11:49:52Z",
+   "measurements": [
+    "2b51c74b90e9b44f41e917b21ba549bc5c9adabde234f31088286c506eed29826becc4acfbf1ed60837181b6268f6e36",
+    "390c480f5e658b7a7debdca82149dbe5e4bfff3a652ae6ce91bbf4d7d9abc0c48eeb617df01f9689035668e2bdfe2d2e",
+    "c26b98669ef67160074265a964fa526c0c05ef9d5037b7ccbe88ae52e517a031930c7228bca9eda3a2fc5b407b425c0a"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.31"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.30",
+   "published_at": "2026-01-05T07:00:38Z",
+   "measurements": [
+    "b0b11a81d1dc6eecf6fa90fb46edc8a2858b477274132ad182335f1001feded39c1b4caad4435196a2e16a3838f12326",
+    "c50c5d02b1afc51d23e0a91a4e3c3c8a9214624079b487f5c677d58c7d952599198ded29075441b61176a2a2b48e8aee",
+    "e806535b34b819bed3960982a310d1f73633f12a954db1f92d72bd0ab87242ae1014ad42a7ecc427262bc39deac5d10f"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.30"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.29",
+   "published_at": "2026-01-05T06:46:11Z",
+   "measurements": [
+    "2b34aad9e5c1d95aa5b7eaaa1d39d192910cb1871f89b2eeda41fb744070c615a3ff1f853c66f4ab29c0334a36dee809",
+    "7b44f4b91c0bddd267239a3b4fa87f935f74bd6c370fef8bbfad066a6a75b867a7e5058fc1dd5efbc350d24d42a84c33",
+    "820383b0dd9704930320eaa19304214561c41e7117a56e6f72fe50423ac40a24e48499d15e2220275550b887adcdd1d0"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.29"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.28",
+   "published_at": "2025-12-19T22:39:33Z",
+   "measurements": [
+    "2b34aad9e5c1d95aa5b7eaaa1d39d192910cb1871f89b2eeda41fb744070c615a3ff1f853c66f4ab29c0334a36dee809",
+    "7b44f4b91c0bddd267239a3b4fa87f935f74bd6c370fef8bbfad066a6a75b867a7e5058fc1dd5efbc350d24d42a84c33",
+    "820383b0dd9704930320eaa19304214561c41e7117a56e6f72fe50423ac40a24e48499d15e2220275550b887adcdd1d0"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.28"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.27",
+   "published_at": "2025-12-18T19:43:33Z",
+   "measurements": [
+    "2b34aad9e5c1d95aa5b7eaaa1d39d192910cb1871f89b2eeda41fb744070c615a3ff1f853c66f4ab29c0334a36dee809",
+    "ae5015f156b08d812a3820d778291355ae8a61c90774e2b2106dd2d5dcd493b914f4b1e56c9885fa1bd1e52bba1a3db3",
+    "ecd6f1dc4620c34c4bf9e03ba779798f9b3374210b032815468755b9e154281102dd612a79d2bfdcb1d8badcfd10f7fd"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.27"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.26",
+   "published_at": "2025-12-18T02:01:47Z",
+   "measurements": [
+    "29e0d3ee2f615a1c006fa53baae59396c5c89302a2cef4c269a146db12febf32de270df4d3c27ca3e42a29bbb54b89de",
+    "2b34aad9e5c1d95aa5b7eaaa1d39d192910cb1871f89b2eeda41fb744070c615a3ff1f853c66f4ab29c0334a36dee809",
+    "3d346d8a25f9fa6b1c7b6d9fec3393038429289db3990e9a6e58e79c9e71053689327c3b49620bfc663bfd2deead5a9d"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.26"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.25",
+   "published_at": "2025-12-13T01:54:59Z",
+   "measurements": [
+    "2b34aad9e5c1d95aa5b7eaaa1d39d192910cb1871f89b2eeda41fb744070c615a3ff1f853c66f4ab29c0334a36dee809",
+    "3098ca6e51cd07dff8b6afca60c81e22cb0041791bdd58b76b88cab6af01380b429e6e703bd79f0718418a17de5d2151",
+    "6b1afac0d0dffa3e6fe6b427304537d1fcfce359dc96721ee8f4569176ae271e4d88ddb7157c2eadc04b1003f0009fa0"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.25"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.24",
+   "published_at": "2025-12-11T23:05:12Z",
+   "measurements": [
+    "2b34aad9e5c1d95aa5b7eaaa1d39d192910cb1871f89b2eeda41fb744070c615a3ff1f853c66f4ab29c0334a36dee809",
+    "3098ca6e51cd07dff8b6afca60c81e22cb0041791bdd58b76b88cab6af01380b429e6e703bd79f0718418a17de5d2151",
+    "6b1afac0d0dffa3e6fe6b427304537d1fcfce359dc96721ee8f4569176ae271e4d88ddb7157c2eadc04b1003f0009fa0"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.24"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.23",
+   "published_at": "2025-12-11T20:20:17Z",
+   "measurements": [
+    "2b34aad9e5c1d95aa5b7eaaa1d39d192910cb1871f89b2eeda41fb744070c615a3ff1f853c66f4ab29c0334a36dee809",
+    "e01e621d432f25e99feb2051bfb71a45e628f55fe6f84dfafab4ad978879cf0ed4a7070a151303d341f587ab0bd71c9a",
+    "f93e550825157c99115300814c2872f05ae8b2e3957306ea10b8a722160c1884fba6ad6245b977d52f4a6f12d0b9338d"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.23"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.22",
+   "published_at": "2025-12-09T05:31:31Z",
+   "measurements": [
+    "2b34aad9e5c1d95aa5b7eaaa1d39d192910cb1871f89b2eeda41fb744070c615a3ff1f853c66f4ab29c0334a36dee809",
+    "ba4f5c7160c25f42cb2df45460e62a750064cc9f212ba74cfab851afb58fc51dd2711762f10fed4fe9bd8c16c0bdd7c8",
+    "d0019071083bcc852f3bf434d7c702a8da42cc7ce8515ff733a26b5bab779233800003fd7139ed12ea999b9936d4c196"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.22"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.21",
+   "published_at": "2025-12-04T18:53:38Z",
+   "measurements": [
+    "10907449f8fe0c7b7595401716cc84e2a23af48724d6318b937d807574ed006713bad9f5979008ebab18b07fff6b5d68",
+    "2b34aad9e5c1d95aa5b7eaaa1d39d192910cb1871f89b2eeda41fb744070c615a3ff1f853c66f4ab29c0334a36dee809",
+    "a3c3c1db2f2daf0f3fcad65286d3d475046e7772a75f30e5a4acf0271498f8a09549d25d1d78e1d4b417551a5186e0d9"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.21"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.20",
+   "published_at": "2025-11-27T02:18:10Z",
+   "measurements": [
+    "2b34aad9e5c1d95aa5b7eaaa1d39d192910cb1871f89b2eeda41fb744070c615a3ff1f853c66f4ab29c0334a36dee809",
+    "70130588ea89bc9c7c223d0ef6467c1f7b553a3364f353a9668bc5f7eb91c64e9ebba1ccc4fedcc986ec36b29a1b505a",
+    "8e37ec29bc97037efbe3264d6d34aac9b25ddb81528a1f3656f0b59e7d128c9078f7ca96b2aa9c7cf94354a661394ec8"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.20"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.19",
+   "published_at": "2025-11-27T02:01:21Z",
+   "measurements": [
+    "2b34aad9e5c1d95aa5b7eaaa1d39d192910cb1871f89b2eeda41fb744070c615a3ff1f853c66f4ab29c0334a36dee809",
+    "5cf3e24f25003e9499a55765ab36cd04748fcbb8e40b4c5c749248592f00c84e1f9b179fe08b5995608137014813e4cf",
+    "9e5e88da27c0c1e47827019a2f7ec4d952be0d8fbf2f456024def478fb3f59f0c7f53eb4dbc3b8e090430738a97c432d"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.19"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.18",
+   "published_at": "2025-11-27T01:40:27Z",
+   "measurements": [
+    "2b34aad9e5c1d95aa5b7eaaa1d39d192910cb1871f89b2eeda41fb744070c615a3ff1f853c66f4ab29c0334a36dee809",
+    "75b1ca76d93b86a0d98c4a7a49391f83d81f1f93c159611c175cad94ce03ed296394cef8db58aa43e8024371f2b90768",
+    "efb810c04d53c73d617b7b32ca508b40ef3add13396e0af8c3d56b2bcb4851ff9dfa7400fba5fd6dc85f2ad496424fec"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.18"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.17",
+   "published_at": "2025-11-26T20:30:38Z",
+   "measurements": [
+    "18712942e88b1a72381b8a5be66a8b18754c5ae27cecfd05f9e050ff74306318680a8960f80846ddfd7586e0220e29d4",
+    "2b34aad9e5c1d95aa5b7eaaa1d39d192910cb1871f89b2eeda41fb744070c615a3ff1f853c66f4ab29c0334a36dee809",
+    "5010afe58b412a743d87e432c18d49398a3588c3b6ffc22312cc900953725afa206c1ff9de0ebe59dde6b678d06c6455"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.17"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.16",
+   "published_at": "2025-11-23T00:48:51Z",
+   "measurements": [
+    "0d0794cd39f30a558c09764dcfe725d9542a49978922de08b8f634a6e95d97d167e5c9965b3c069313ad371c3d08e22d",
+    "896d8b9138548e63779a121b8c2b1a087ddaa39901e1fd096319ff0005b9699fe04dd13adb33063a1d65dd4bcdc2f5b1",
+    "9350ba79655978509479ce743a0fe364a36d5f83628f94a482a45f3430e8c132390a47eb9cb3fbdfb4e9ddae35bfc7a8"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.16"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.15",
+   "published_at": "2025-11-23T00:19:21Z",
+   "measurements": [
+    "3e8456031e1ae991cc93c91bd69c8f0cd0107cc2ab9be8d13b921781ca2cd16daa0188de3332a0d98c2878844bb9af37",
+    "896d8b9138548e63779a121b8c2b1a087ddaa39901e1fd096319ff0005b9699fe04dd13adb33063a1d65dd4bcdc2f5b1",
+    "cd1ff29f11ee6bceed0ebcdbd74a7319cbca986943d8c1f1a6dbf0c04586105a1e523e772b55a0a1f85fa5d490b85b8e"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.15"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.14",
+   "published_at": "2025-11-19T04:14:24Z",
+   "measurements": [
+    "896d8b9138548e63779a121b8c2b1a087ddaa39901e1fd096319ff0005b9699fe04dd13adb33063a1d65dd4bcdc2f5b1",
+    "a5b5adc8a8469af328d16723acc5c35e82a89710564be8bbc1608469f67960782b7ba133d20058cb75afc7e63aa27197",
+    "a89d6a9bebd93b07d6033059f0124b6ebc27bd18912befcec7a30f1f9d701429d374846c54bd35b6b86c4851583c6a64"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.14"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.13",
+   "published_at": "2025-11-06T04:05:25Z",
+   "measurements": [
+    "0b8a0ac193d819646545ec01005f76ad02877f52020b3bc22d0ddc8254d0b543af2b57b4d0b415808a5d2c2656f8adce",
+    "29135cc8037ca5cc51f3c57c6700b8fa24b11c256e611332fde68227612391cc4c9ecba679689870f62cc6daf39dc644",
+    "896d8b9138548e63779a121b8c2b1a087ddaa39901e1fd096319ff0005b9699fe04dd13adb33063a1d65dd4bcdc2f5b1"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.13"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.12",
+   "published_at": "2025-10-29T19:56:11Z",
+   "measurements": [
+    "566f66e6f592a0a217336803637338a83422d6a2a7df4e4b4acf88020055f5df330608707e78a95a5bba52ecf271b644",
+    "896d8b9138548e63779a121b8c2b1a087ddaa39901e1fd096319ff0005b9699fe04dd13adb33063a1d65dd4bcdc2f5b1",
+    "ec06b4a8fb315ebebd07f989965c9e30db49068e2e34be915c6ca879ab2d2e2a7bebdd0e41ad1c4bced427793916d21e"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.12"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.11",
+   "published_at": "2025-10-29T19:54:04Z",
+   "measurements": [
+    "33162608e171154bae88886365341dad7eb5821ba87785041f7f2f6281511a65b01069894cfebad5370939e05a0a1ca1",
+    "896d8b9138548e63779a121b8c2b1a087ddaa39901e1fd096319ff0005b9699fe04dd13adb33063a1d65dd4bcdc2f5b1",
+    "fbe40d6adb70ef8047dbfbd9be05fcf39d9dd32d5b88c70dd5c06024d3a8d79a5d2e9e9723d3b3cb206bfd887eddcdec"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.11"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.10",
+   "published_at": "2025-10-29T02:19:31Z",
+   "measurements": [
+    "33162608e171154bae88886365341dad7eb5821ba87785041f7f2f6281511a65b01069894cfebad5370939e05a0a1ca1",
+    "896d8b9138548e63779a121b8c2b1a087ddaa39901e1fd096319ff0005b9699fe04dd13adb33063a1d65dd4bcdc2f5b1",
+    "fbe40d6adb70ef8047dbfbd9be05fcf39d9dd32d5b88c70dd5c06024d3a8d79a5d2e9e9723d3b3cb206bfd887eddcdec"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.10"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.9",
+   "published_at": "2025-10-24T18:25:45Z",
+   "measurements": [
+    "33162608e171154bae88886365341dad7eb5821ba87785041f7f2f6281511a65b01069894cfebad5370939e05a0a1ca1",
+    "896d8b9138548e63779a121b8c2b1a087ddaa39901e1fd096319ff0005b9699fe04dd13adb33063a1d65dd4bcdc2f5b1",
+    "fbe40d6adb70ef8047dbfbd9be05fcf39d9dd32d5b88c70dd5c06024d3a8d79a5d2e9e9723d3b3cb206bfd887eddcdec"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.9"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.7",
+   "published_at": "2025-10-20T23:08:05Z",
+   "measurements": [
+    "1221525137310f0ecd85d21ae22cd928cbf265f884fa978028de30a2b6c70aed004e5bc8697f144935ddd6125a38e369",
+    "5cc8c22a3bf9043e290f971152862cc3af2f1eb402fd2e02fb24388e55653eeade5bd0be90eb56f922c3e643cc0c959b",
+    "896d8b9138548e63779a121b8c2b1a087ddaa39901e1fd096319ff0005b9699fe04dd13adb33063a1d65dd4bcdc2f5b1"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.7"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.6",
+   "published_at": "2025-10-17T17:07:33Z",
+   "measurements": [
+    "004f09de1a962ba463620ae6362e7d4cb7cf9d4a2db897d3077638f5a0c1b9b5f39686db4a57a372c2580158225dea84",
+    "7c2b9526851662d481834dbd45aec70306996a0dd379f85c17e7abe3d1b3a264f39b47e3f4f72256cd92901beb33d02b",
+    "896d8b9138548e63779a121b8c2b1a087ddaa39901e1fd096319ff0005b9699fe04dd13adb33063a1d65dd4bcdc2f5b1"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.6"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.5",
+   "published_at": "2025-10-17T16:56:56Z",
+   "measurements": [
+    "444ae00243318eb12caec0326c9b82718b6f438a6898fbcc32bc7bbba3ea3fb966b1cdee15a162866c374f2b3b0f0fba",
+    "4cd8527704915725cbab74b9e7525e256b35e2694dbb5e79b623cc096515aa6ca3e0755c16b0936e7c0e5349e2f95e93",
+    "896d8b9138548e63779a121b8c2b1a087ddaa39901e1fd096319ff0005b9699fe04dd13adb33063a1d65dd4bcdc2f5b1"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.5"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.4",
+   "published_at": "2025-10-17T16:42:14Z",
+   "measurements": [
+    "76796ee3a703e5e5838ac69c259c05c8a55f40d3eebb758800bfe930081bc53081ebe9b6b33a750216f6c5446c3970c3",
+    "896d8b9138548e63779a121b8c2b1a087ddaa39901e1fd096319ff0005b9699fe04dd13adb33063a1d65dd4bcdc2f5b1",
+    "f2d49de10c3fa0e7590988138a4614a61cabe9546014f97fff80e3f0ec9fc6c5a15702e847bba2c14fb9970558fcaf66"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.4"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.3",
+   "published_at": "2025-10-16T01:50:53Z",
+   "measurements": [
+    "896d8b9138548e63779a121b8c2b1a087ddaa39901e1fd096319ff0005b9699fe04dd13adb33063a1d65dd4bcdc2f5b1",
+    "95d867310899ab024b543975ad3b51bca678cb38bef5472b8e59b7d4a17a5cf30a8708d32ea4e275bd041991db27c79b",
+    "a45117138bb5ed35b9f0ba2adf3c2eeda3bba7f0eb4ba5c393311a9b391abf0c18a7310ab42348a30ddbd5b342b5851d"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.3"
+  },
+  {
+   "repo": "confidential-model-router",
+   "tag": "v0.0.1",
+   "published_at": "2025-10-15T19:23:07Z",
+   "measurements": [
+    "56dd1f3a4c49bee4a343a1a67867c6fdb89f14e7d49286344e7f36a734187e9527250728cb834e77fbdb831c0fab7b72",
+    "6ec9f088266950b67445446090f64b364f46c2a56d76eb98e899e529e3c0f5727b8ae923c654e8845b06f282b49fdf9b",
+    "896d8b9138548e63779a121b8c2b1a087ddaa39901e1fd096319ff0005b9699fe04dd13adb33063a1d65dd4bcdc2f5b1"
+   ],
+   "url": "https://github.com/tinfoilsh/confidential-model-router/releases/tag/v0.0.1"
+  }
+ ]
+}
