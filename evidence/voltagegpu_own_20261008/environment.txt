@@ -1,0 +1,16 @@
+stamp=20261008T232219Z
+host=unprompted-demo-183288fb
+Linux unprompted-demo-183288fb 6.8.0-110-generic #110-Ubuntu SMP PREEMPT_DYNAMIC Thu Mar 19 15:09:20 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+crw------- 1 root root 10, 262 Oct  8 23:22 /dev/tdx_guest
+kvm
+NVIDIA H100 80GB HBM3, 595.71.05, 96.00.CF.00.01
+
+==============NVSMI CONF-COMPUTE LOG==============
+
+    CC State                   : ON
+    Multi-GPU Mode             : None
+    CPU CC Capabilities        : INTEL TDX
+    GPU CC Capabilities        : CC Capable
+    CC GPUs Ready State        : Ready
+
+provider=tdx_guest  generation=1

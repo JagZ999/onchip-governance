@@ -1,0 +1,516 @@
+{
+  "meta": {
+    "generated_at": "2026-10-05T05:55:31.510165+00:00",
+    "connector_version": "0.6.0",
+    "system_name": null,
+    "location_evidence": null,
+    "provider": "VoltageGPU tenant-published evidence (voltage-verify bundle), verified from outside",
+    "environment": "Intel TDX CVM + 1x NVIDIA RTX PRO 6000 Blackwell, CC mode on, captured 2026-09-17",
+    "expected_measurement": null,
+    "model_digest": null,
+    "max_age_days": 60
+  },
+  "assurance_level": {
+    "level": 3,
+    "description": "L3 \u2014 evidence independently re-verified against vendor / verifier keys"
+  },
+  "coverage": {
+    "score": 42,
+    "passed": 5,
+    "applicable": 12
+  },
+  "sources": [
+    {
+      "source": "nras",
+      "path": "rtx6000b_nras_api_shape.json",
+      "format": "jwt",
+      "issuer": "https://nras.attestation.nvidia.com",
+      "issued_at": "2026-09-17T00:00:26+00:00",
+      "expires_at": "2026-09-17T01:00:26+00:00",
+      "signature_verified": true,
+      "verify_note": "signature verified locally (ES384, kid=nv-eat-kid-prod-20260916210542839-8c3f3e64-8da3-49d2-98e4-e2ea259cfdd3)",
+      "nonce": "63c007e1ba89dc58cea45a8ba5d8e5b4df88977055b7a7a758e6ab015b4ff956",
+      "overall_result": true,
+      "devices": [
+        {
+          "kind": "gpu",
+          "vendor": "NVIDIA",
+          "tee": "NVIDIA-CC",
+          "identity": "638014572960251719528346605958749559314067742433",
+          "model": "GB20X",
+          "firmware": {
+            "driver": "595.71.05",
+            "vbios": "98.02.9E.00.01",
+            "oemid": "5703"
+          },
+          "measurements": {},
+          "debug_enabled": false,
+          "secure_boot": true,
+          "cc_mode": "ON",
+          "measurements_match_reference": true,
+          "tcb_status": null,
+          "tcb_up_to_date": null,
+          "advisories": [],
+          "migratable": null,
+          "smt_enabled": null,
+          "cert_chain_valid": true,
+          "nonce_matched": true,
+          "report_data": null,
+          "runtime_data": null,
+          "location": {},
+          "workload": {},
+          "extra": {
+            "arch_check": true,
+            "rim_chain_ok": true,
+            "warning": null,
+            "switch_pdis": null
+          }
+        }
+      ],
+      "raw_claims_sha256": "0462a74213bce1bdb9c64721fe845e6d5f4867b4402a070506365b0ba62bcb1c",
+      "warnings": [],
+      "extra_verification": {}
+    },
+    {
+      "source": "tdx-quote",
+      "path": "rtx6000b_quote.bin",
+      "format": "binary",
+      "issuer": "Intel TDX module / Quoting Enclave (unverified)",
+      "issued_at": null,
+      "expires_at": null,
+      "signature_verified": null,
+      "verify_note": "",
+      "nonce": null,
+      "overall_result": true,
+      "devices": [
+        {
+          "kind": "cpu-tee",
+          "vendor": "Intel",
+          "tee": "TDX",
+          "identity": null,
+          "model": "Intel TDX trust domain (raw quote)",
+          "firmware": {
+            "quote_version": 4,
+            "attestation_key_type": 2,
+            "tee_type": "0x81",
+            "tee_tcb_svn": "05030400000000000000000000000000",
+            "mrseam": "476a2997c62bccc78370913d0a80b956e3721b24272bc66c4d6307ced4be2865c40e26afac75f12df3425b03eb59ea7c",
+            "mrsignerseam": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "xfam": "e702060000000000",
+            "qe_vendor_id": "f79c4ca9940a0db3957f0607c2ad233e"
+          },
+          "measurements": {
+            "mrtd": "eea8b6a814569a52bd1e12f6b869bb2d9c0c8a7a43e658ffc3b42c199f116157ea7f04d359c7fdfd8ac483152cc13542",
+            "mr_config_id": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "mr_owner": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "mr_owner_config": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "rtmr0": "f9ac3522e05572c2ede103eb9f243bebddee62d8e8db65a526736ea2bd5eb6dbe69a5ff8082c8050865b5ddadae4fa8a",
+            "rtmr1": "965b54adf526d37237906189a31d9b058c39fac8909d9689e3340505aac4176deed2c2f3374b226304b23137d4832ae9",
+            "rtmr2": "c2f56e0459db5660608f8f3a312f67decc0d210d55e93d3d106fe7f939941c524b0b370d53c4a6d6290e2df3b9511397",
+            "rtmr3": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          },
+          "debug_enabled": false,
+          "secure_boot": true,
+          "cc_mode": null,
+          "measurements_match_reference": null,
+          "tcb_status": null,
+          "tcb_up_to_date": null,
+          "advisories": [],
+          "migratable": null,
+          "smt_enabled": null,
+          "cert_chain_valid": null,
+          "nonce_matched": null,
+          "report_data": "832791479ad739ef2c1d51e1fb1da7a7a1422b6c88afaf2ca1c292f1ae9ee7dbe5e571b9926390cfdd7f62672c696ccda0c004a0c779a30c16ff80ce461790b8",
+          "runtime_data": null,
+          "location": {},
+          "workload": {},
+          "extra": {
+            "td_attributes": "0000001000000000",
+            "perfmon": false,
+            "seam_attributes": "0000000000000000"
+          }
+        }
+      ],
+      "raw_claims_sha256": "094628bcdb4f097802af4f2dda16d7b9e18d4827ca60d9ddec547bfe0965ce47",
+      "warnings": [
+        "raw TDX quote: signature and TCB status not verified (needs Intel PCS collateral); pair with an Intel Trust Authority token"
+      ],
+      "extra_verification": {}
+    }
+  ],
+  "checks": [
+    {
+      "id": "G01",
+      "title": "Hardware identity chain: attestation signed by a key rooted in the silicon vendor",
+      "status": "unknown",
+      "evidence": [
+        "nras: signature verified locally (ES384, kid=nv-eat-kid-prod-20260916210542839-8c3f3e64-8da3-49d2-98e4-e2ea259cfdd3)",
+        "GB20X 638014572960251719528346605958749559314067742433: device cert chain valid",
+        "tdx-quote: raw report, signature not verified (pass --verify-amd)"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Art. 15(5) cybersecurity",
+          "Annex IV \u00a71(e) hardware description",
+          "Annex IV \u00a72(h) cybersecurity measures"
+        ],
+        "SOC 2": [
+          "CC6.1",
+          "CC6.6"
+        ],
+        "ISO/IEC 42001": [
+          "A.4.5 system & computing resources"
+        ],
+        "ISO/IEC 27001": [
+          "A.8.9",
+          "A.5.23"
+        ],
+        "NIST AI RMF": [
+          "MEASURE 2.7"
+        ]
+      },
+      "remediation": "Supply verifier JWKS (--jwks) so signatures are re-verified locally, or verify raw reports with vendor collateral."
+    },
+    {
+      "id": "G02",
+      "title": "Confidential-computing mode active on every attested device",
+      "status": "pass",
+      "evidence": [
+        "GB20X 638014572960251719528346605958749559314067742433: cc_mode=ON",
+        "TDX: attestation implies TEE isolation active"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Art. 15(5) confidentiality attacks",
+          "Art. 10(5) data protection",
+          "Art. 55(1)(d) GPAI infra security"
+        ],
+        "SOC 2": [
+          "CC6.1",
+          "CC6.7",
+          "C1.1"
+        ],
+        "ISO/IEC 42001": [
+          "A.4.5"
+        ],
+        "ISO/IEC 27001": [
+          "A.8.24 cryptography"
+        ]
+      },
+      "remediation": "Enable CC mode (nvidia-smi conf-compute -srs 1 / cloud CC-enabled SKU) and re-attest."
+    },
+    {
+      "id": "G03",
+      "title": "Debug / developer modes disabled on every attested device",
+      "status": "pass",
+      "evidence": [
+        "NVIDIA-CC 638014572960251719528346605958749559314067742433: debug=disabled",
+        "TDX : debug=disabled"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Art. 15(5) confidentiality attacks",
+          "Annex IV \u00a72(h)"
+        ],
+        "SOC 2": [
+          "CC6.1",
+          "CC6.8"
+        ],
+        "ISO/IEC 27001": [
+          "A.8.9 configuration management"
+        ]
+      },
+      "remediation": "Re-launch with debug policy bits cleared (SNP policy bit 19, TDX TUD.DEBUG, GPU dbgstat)."
+    },
+    {
+      "id": "G04",
+      "title": "Secure or measured boot enforced (firmware measured into the TEE)",
+      "status": "pass",
+      "evidence": [
+        "NVIDIA-CC 638014572960251719528346605958749559314067742433: secure/measured boot=True",
+        "TDX : secure/measured boot=True"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Annex IV \u00a71(c) firmware versions",
+          "Art. 15(4) resilience"
+        ],
+        "SOC 2": [
+          "CC6.8",
+          "CC7.1"
+        ],
+        "NIST": [
+          "SP 800-193 firmware resiliency"
+        ]
+      },
+      "remediation": "Enable UEFI secure boot / measured boot in the CVM image; for raw SNP reports add the MAA or ITA token."
+    },
+    {
+      "id": "G05",
+      "title": "Firmware & driver measurements match the vendor reference (RIM / golden values)",
+      "status": "pass",
+      "evidence": [
+        "GB20X 638014572960251719528346605958749559314067742433: measurements match reference=True; driver=595.71.05 vbios=98.02.9E.00.01"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Annex IV \u00a71(c)",
+          "Annex IV \u00a76 lifecycle changes",
+          "Art. 15(5) model poisoning"
+        ],
+        "SOC 2": [
+          "CC6.8",
+          "CC7.1",
+          "CC8.1"
+        ],
+        "ISO/IEC 27001": [
+          "A.8.9",
+          "A.8.19"
+        ]
+      },
+      "remediation": "Update to a driver/vBIOS with a published RIM, or record the CSP compliance status claim."
+    },
+    {
+      "id": "G06",
+      "title": "Platform TCB up to date (no outstanding vendor security advisories)",
+      "status": "unknown",
+      "evidence": [
+        "TDX : tcb_status=not reported; svn={'tee_tcb_svn': '05030400000000000000000000000000'}"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Art. 15(5) vulnerabilities",
+          "Annex IV \u00a76"
+        ],
+        "SOC 2": [
+          "CC7.1 vulnerability mgmt"
+        ],
+        "ISO/IEC 27001": [
+          "A.8.8"
+        ]
+      },
+      "remediation": "Apply platform firmware / microcode updates referenced by the advisories; re-attest."
+    },
+    {
+      "id": "G07",
+      "title": "Isolation policy: live migration off, side-channel-relevant options recorded",
+      "status": "unknown",
+      "evidence": [
+        "TDX : migratable=not reported; smt=None"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Art. 15(5) confidentiality attacks"
+        ],
+        "SOC 2": [
+          "CC6.1",
+          "CC6.7"
+        ]
+      },
+      "remediation": "Launch with migration disabled; document SMT decision in the Art. 15 risk assessment."
+    },
+    {
+      "id": "G08",
+      "title": "Attested workload measurement equals the documented reference (launch measurement / MRTD / image digest)",
+      "status": "unknown",
+      "evidence": [
+        "TDX: mrtd=eea8b6a814569a52\u2026 (no --expected-measurement supplied)"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Annex IV \u00a71(a) versions",
+          "Annex IV \u00a72(c) system architecture",
+          "Art. 12 record-keeping"
+        ],
+        "SOC 2": [
+          "CC8.1 change management",
+          "CC7.1"
+        ],
+        "ISO/IEC 42001": [
+          "A.6.2.4 verification & validation",
+          "A.6.2.7 technical documentation"
+        ]
+      },
+      "remediation": "Record the golden launch measurement / image digest in the model registry and pass it as --expected-measurement."
+    },
+    {
+      "id": "G09",
+      "title": "Deployed model artefact cryptographically bound to the attestation (model digest in report data)",
+      "status": "unknown",
+      "evidence": [
+        "NVIDIA-CC: report_data present (\u2026) \u2014 pass --model-digest to bind the model",
+        "TDX: report_data present (832791479ad739ef\u2026) \u2014 pass --model-digest to bind the model"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Annex IV \u00a71(a) model version",
+          "Annex IV \u00a76",
+          "Art. 12 traceability"
+        ],
+        "SOC 2": [
+          "CC8.1",
+          "CC6.8"
+        ],
+        "ISO/IEC 42001": [
+          "A.6.2.7",
+          "A.8.4 communication of incidents"
+        ]
+      },
+      "remediation": "Place SHA-256(model artefact) in REPORT_DATA / attester runtime data at launch so the running model is provable."
+    },
+    {
+      "id": "G10",
+      "title": "Freshness: nonce matched and evidence within the retention / re-attestation window",
+      "status": "fail",
+      "evidence": [
+        "nras: token exp 2026-09-17T01:00:26+00:00 (EXPIRED)",
+        "nras: issued 2026-09-17T00:00:26+00:00, age 18d (window 60d)",
+        "nras: nonce present",
+        "GB20X: nonce match=True"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Art. 12 & Art. 19 automatic logs (\u2265 6 months)",
+          "Art. 72 post-market monitoring"
+        ],
+        "SOC 2": [
+          "CC7.2 monitoring"
+        ],
+        "ISO/IEC 42001": [
+          "A.6.2.6 operation & monitoring"
+        ]
+      },
+      "remediation": "Re-attest on a schedule (e.g. every deploy + daily) and retain tokens \u2265 6 months for Art. 19."
+    },
+    {
+      "id": "G11",
+      "title": "Deployment location: platform-asserted zone, or attestation-bound distance bound from multiple vantage points",
+      "status": "unknown",
+      "evidence": [
+        "No platform-attested location in evidence (NRAS/ITA/MAA tokens carry none today; Chip Security Act mechanisms not yet shipping)"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Annex IV \u00a71(e) deployment environment",
+          "Art. 10(5)"
+        ],
+        "SOC 2": [
+          "CC6.6"
+        ],
+        "Export controls": [
+          "Chip Security Act (pending): location verification",
+          "BIS licence conditions"
+        ],
+        "GDPR": [
+          "Ch. V transfers"
+        ]
+      },
+      "remediation": "Record deployment region from the CSP control plane as supporting evidence; network inference bounds the host, not the chip; track NVIDIA fleet-management / Chip Security Act location attestations."
+    },
+    {
+      "id": "G12",
+      "title": "Multi-device protection: NVLink / NVSwitch attested or single-GPU passthrough confirmed",
+      "status": "pass",
+      "evidence": [
+        "1 GPU(s), 0 NVSwitch attestation(s); single-passthrough=False; switch PDIs=no"
+      ],
+      "controls": {
+        "EU AI Act": [
+          "Art. 15(5)"
+        ],
+        "SOC 2": [
+          "CC6.7 data in motion"
+        ]
+      },
+      "remediation": "For multi-GPU CC, include NVSwitch attestation (nvattest --switch) or PPCIE verifier output."
+    }
+  ],
+  "annex_iv": {
+    "\u00a71 General description": {
+      "1(c) firmware/software versions": [
+        {
+          "device": "GB20X",
+          "driver": "595.71.05",
+          "vbios": "98.02.9E.00.01",
+          "oemid": "5703"
+        },
+        {
+          "device": "Intel TDX trust domain (raw quote)",
+          "quote_version": 4,
+          "attestation_key_type": 2,
+          "tee_type": "0x81",
+          "tee_tcb_svn": "05030400000000000000000000000000",
+          "mrseam": "476a2997c62bccc78370913d0a80b956e3721b24272bc66c4d6307ced4be2865c40e26afac75f12df3425b03eb59ea7c",
+          "mrsignerseam": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "xfam": "e702060000000000",
+          "qe_vendor_id": "f79c4ca9940a0db3957f0607c2ad233e"
+        }
+      ],
+      "1(e) hardware the system runs on": [
+        [
+          "Intel",
+          "Intel TDX trust domain (raw quote)"
+        ],
+        [
+          "NVIDIA",
+          "GB20X"
+        ]
+      ],
+      "status": "auto"
+    },
+    "\u00a72 Design & development": {
+      "2(h) cybersecurity measures (hardware layer)": [
+        "pass",
+        "pass",
+        "pass",
+        "unknown"
+      ],
+      "status": "auto-partial"
+    },
+    "\u00a73 Monitoring, functioning & control": {
+      "attested runtime state": [
+        "pass",
+        "unknown",
+        "fail"
+      ],
+      "status": "auto-partial"
+    },
+    "\u00a74 Performance metrics": {
+      "status": "n/a (see MLflow / W&B connectors)"
+    },
+    "\u00a75 Risk management": {
+      "inputs": "side-channel residual risk, vendor-root trust, TCB drift",
+      "status": "manual"
+    },
+    "\u00a76 Lifecycle changes": {
+      "firmware/driver drift detection": "pass",
+      "status": "auto-partial"
+    },
+    "\u00a77 Standards applied": {
+      "candidates": [
+        "IETF RFC 9334 RATS",
+        "IETF RFC 9711 EAT",
+        "TCG DICE / SPDM",
+        "NIST SP 800-193",
+        "ISO/IEC 27001 A.8.24"
+      ],
+      "status": "manual"
+    },
+    "\u00a78 EU Declaration": {
+      "status": "manual"
+    },
+    "\u00a79 Post-market monitoring": {
+      "re-attestation cadence evidence": "fail",
+      "status": "auto-partial"
+    }
+  },
+  "location_evidence": null,
+  "standards_referenced": [
+    "IETF RFC 9334 (RATS architecture)",
+    "IETF RFC 9711 (EAT)",
+    "draft-ietf-rats-corim",
+    "AMD SEV-SNP ABI ATTESTATION_REPORT",
+    "Intel TDX DCAP quote v4/v5",
+    "NVIDIA Attestation claims v2/v3"
+  ]
+}

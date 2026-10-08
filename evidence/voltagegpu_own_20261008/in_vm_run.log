@@ -1,0 +1,75 @@
+== run2 start 2026-10-08T23:22:18Z
+
+== 0. environment
+stamp=20261008T232219Z
+host=unprompted-demo-183288fb
+Linux unprompted-demo-183288fb 6.8.0-110-generic #110-Ubuntu SMP PREEMPT_DYNAMIC Thu Mar 19 15:09:20 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+crw------- 1 root root 10, 262 Oct  8 23:22 /dev/tdx_guest
+kvm
+NVIDIA H100 80GB HBM3, 595.71.05, 96.00.CF.00.01
+
+==============NVSMI CONF-COMPUTE LOG==============
+
+    CC State                   : ON
+    Multi-GPU Mode             : None
+    CPU CC Capabilities        : INTEL TDX
+    GPU CC Capabilities        : CC Capable
+    CC GPUs Ready State        : Ready
+
+
+== 1. python tooling (image ships without pip)
+nv_attestation_sdk 2.7.3
+
+== 2. model artefact -> SHA-256 (the digest an operator binds)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  1116  100  1116    0     0   6440      0 --:--:-- --:--:-- --:--:--  6488
+
+-rw-rw-r-- 1 ubuntu ubuntu 491400032 Oct  8 23:23 model.gguf
+model sha256: 74a4da8c9fdbcd15bd1f6d01d621410d31c6fc00986f5eb687824e7b93d7a9db
+
+== 3. challenge (32 random bytes, chosen here, now)
+challenge: 59b3b20ceb1f793d5032b0531c31b99bbf5254190a5f658037c51670fed91349
+report_data = sha256(model) || challenge  (64 bytes)
+
+== 4. Intel TDX quote via configfs TSM (report_data bound), as root
+provider=tdx_guest  generation=1
+quote bytes=5247 version=4 tee_type=0x81
+report_data present at offset 568: OK (model digest + challenge are inside the chip-signed quote)
+
+== 5. NVIDIA GPU attestation via nv_attestation_sdk, nonce = SHA-256(model), as root
+jwks keys: 72
+Using default Remote verifier URL: https://nras.attestation.nvidia.com/v3/attest/gpu
+Nonce generated: 74a4da8c9fdbcd15bd1f6d01d621410d31c6fc00986f5eb687824e7b93d7a9db
+Number of GPUs available : 1
+Fetching GPU 0 information from GPU driver.
+<stdin>:7: DeprecationWarning: nv-attestation-sdk is deprecated and will reach end of support on September 15, 2026. Please migrate to the C++ SDK: https://github.com/NVIDIA/attestation-sdk. Migration guide: https://docs.nvidia.com/attestation/attestation-client-tools-sdk/latest/migration_guide.html
+All GPU Evidences fetched successfully
+**** Attestation Successful ****
+NRAS endpoint (SDK default): attest() -> True
+NRAS overall: iss https://nras.attestation.nvidia.com | result True | eat_nonce 74a4da8c9fdbcd15…
+  GPU-0: hwmodel=GH100 measres=success secboot=True dbgstat=disabled nonce-match=True driver=595.71.05
+NVIDIA token carries the model digest as its nonce: OK
+
+== 6. optional cross-check bundle with voltage-verify (independent tool, best effort)
+manifest written to manifest.json
+challenge        b97c5327848eecd99646c41552f570ff30f67056e6f40aa42341b2aac0e5ef5a
+commitment256    002f29501d02b43a96a7f2d7b7360c87a2589c797999bcd3adb8d104d777bfc7   (NVIDIA nonce)
+commitment512    e9afdd6b94da5d690b4f6c0aecd40a9d455fe09d1b4de343aa69e953695ff748...   (TDX report_data)
+keep the challenge: pass it to `verify --challenge` to reject replayed bundles
+Nonce generated: 002f29501d02b43a96a7f2d7b7360c87a2589c797999bcd3adb8d104d777bfc7
+Number of GPUs available : 1
+Fetching GPU 0 information from GPU driver.
+All GPU Evidences fetched successfully
+**** Attestation Successful ****
+bundle written to bundle.json (single-gpu, 4940-byte quote)
+GPU: GPU-0 GH100 driver 595.71.05 vbios 96.00.CF.00.01 measurements success
+
+RESULT: VERIFIED
+
+== 7. provenance + checksums + archive
+
+ARCHIVE READY: /tmp/proofs_20261008T232219Z.tgz   (scp it off, then release the VM)
+== script exit=0 2026-10-08T23:23:49Z

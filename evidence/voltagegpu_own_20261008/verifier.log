@@ -1,0 +1,33 @@
+10-08-2026 23:23:45:INFO: Verifier version: 1.3.0
+10-08-2026 23:23:45:DEBUG: ----------STARTING----------
+10-08-2026 23:23:45:DEBUG: Initializing the nvml library
+10-08-2026 23:23:45:INFO: nvmlInit called.
+10-08-2026 23:23:45:INFO: nvmlInit completed successfully
+10-08-2026 23:23:45:INFO: nvmlSystemGetConfComputeState called.
+10-08-2026 23:23:45:INFO: nvmlSystemGetConfComputeState completed successfully
+10-08-2026 23:23:45:INFO: nvmlSystemGetConfComputeSettings called.
+10-08-2026 23:23:45:INFO: nvmlSystemGetConfComputeSettings completed successfully
+10-08-2026 23:23:45:INFO: nvmlSystemGetConfComputeState called.
+10-08-2026 23:23:45:INFO: nvmlSystemGetConfComputeState completed successfully
+10-08-2026 23:23:45:INFO: nvmlDeviceGetCount called.
+10-08-2026 23:23:45:INFO: nvmlDeviceGetCount completed successfully
+10-08-2026 23:23:45:INFO: nvmlDeviceGetHandleByIndex called.
+10-08-2026 23:23:45:INFO: nvmlDeviceGetHandleByIndex completed successfully
+10-08-2026 23:23:45:INFO: nvmlDeviceGetHandleByIndex called.
+10-08-2026 23:23:45:INFO: nvmlDeviceGetHandleByIndex completed successfully
+10-08-2026 23:23:45:INFO: nvmlSystemGetDriverVersion called.
+10-08-2026 23:23:45:INFO: nvmlSystemGetDriverVersion completed successfully
+10-08-2026 23:23:45:INFO: nvmlDeviceGetBoardId called.
+10-08-2026 23:23:45:INFO: nvmlDeviceGetBoardId completed successfully
+10-08-2026 23:23:45:INFO: nvmlDeviceGetUUID called.
+10-08-2026 23:23:45:INFO: nvmlDeviceGetUUID completed successfully
+10-08-2026 23:23:45:INFO: nvmlDeviceGetArchitecture called.
+10-08-2026 23:23:45:INFO: nvmlDeviceGetArchitecture completed successfully
+10-08-2026 23:23:45:INFO: nvmlDeviceGetVbiosVersion called.
+10-08-2026 23:23:45:INFO: nvmlDeviceGetVbiosVersion completed successfully
+10-08-2026 23:23:45:INFO: nvmlDeviceGetConfComputeGpuCertificate called.
+10-08-2026 23:23:45:INFO: nvmlDeviceGetConfComputeGpuCertificate completed successfully
+10-08-2026 23:23:45:INFO: nvmlDeviceGetConfComputeGpuAttestationReport called.
+10-08-2026 23:23:45:INFO: nvmlDeviceGetConfComputeGpuAttestationReport completed successfully
+10-08-2026 23:23:45:DEBUG: mark_attestation_report_as_available called.
+10-08-2026 23:23:45:DEBUG: mark_attestation_report_as_available called.

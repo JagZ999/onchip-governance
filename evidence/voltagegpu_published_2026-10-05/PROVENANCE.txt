@@ -1,0 +1,2 @@
+source commit: a3b07784c43541df085238c29229f640862cca1b 2026-09-19T21:13:11Z
+source: https://github.com/Jabsama/confidential-gpu-attestation-evidence (MIT); folders h200-single-2026-09-04 and rtx6000b-2026-09-17; fetched 2026-10-05 via GitHub API; tenant-captured inside VoltageGPU TDX CVMs, not produced by us. report_data.bin checksum mismatched the published SHA256SUMS on fetch (GitHub API base64 of a 64-byte file came back as 101 bytes; quote/gpu_report/token/nonce matched).
